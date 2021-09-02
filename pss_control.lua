@@ -1,3 +1,10 @@
+-- This small little program is used in our Base to readout a Power Sub Station with an Adapter
+-- The Automatik on/off function is optional and gives out a Redstone signal with a Strengh of 15.
+
+-- Known issues, You can only use one Adapter in the whole network!!!
+
+-- if you had any Question just ask me on Discord! Blade8895#6067
+
 component = require("component")
 term = require("term")
 aw = require("adWrite")
