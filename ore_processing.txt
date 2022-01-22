@@ -1,0 +1,10 @@
+macerator
+crushed* & !crushedPurified* & !crushedRedstone & !crushedNeodymium & !crushedBastnasite & !crushedEnriched & !crushedPlatinum & !crushedCooperite & !crushedGreenSapphire & !crushedJade & !crushedCoal & !crushedEmerald & !crushedJasper & !crushedInfusedAir & !crushedInfusedFire & !crushedInfusedOrder & !crushedInfusedEarth & !crushedInfusedWater & !crushedInfusedEntropy & !crushedDiamond & !crushedCertusQuartz & !crushedIridium & !crushedNetherStar
+
+ore* & !*Oilsands & !oreNetherStar
+
+Washer
+crushedGreenSapphire | crushedSapphire | crushedJade | crushedCoal | crushedEmerald | crushedJasper | crushedInfusedAir | crushedInfusedFire | crushedInfusedEarth | crushedInfusedWater | crushedInfusedOrder | crushedInfusedEntropy | crushedDiamond | crushedCertusQuartz | crushedNetherStar |dustImpure*
+
+Thermal Centrifuge
+crushedRedstone | crushedNeodymium | crushedBastnasite | crushedNaquadahEnriched | crushedPlatinum | crushedCooperite
