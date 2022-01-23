@@ -43,3 +43,16 @@ ToDo:
 - [ ] Do the new UI Design
 - [ ] Make the UI more Dynamic. (Read the SensorInformation() for Voltage)
 - [ ] Do some Maths to Display Charge Rate and how long it needed to Charge or deplete
+
+# Tank_Control
+This Script Manage all of our Tanks to be Visible in a PErcentage way. Because Quantum Tanks are so Big and Percentage Numbers are always great :D
+It turns on our Production for the FLuids that we combine out of other things when needed.
+And in opens a Valvee to void some Fluid to get Space that our Electrolyzer can keep working.
+
+Usage:
+In the Moment you must look in the Script and put your own Adapter ID's in there and replace every static value.
+
+- [ ] Cleanup Code for easier reading
+- [ ] Make a Function Contructor same as used in Offworld Overwatch
+- [ ] use Tables instead of static values
+
