@@ -1,6 +1,7 @@
 -- Requirements
 local component = require("component")
 local term = require("term")
+hud = require("hud")
 rs = component.redstone
 
 -- Configs
@@ -16,79 +17,20 @@ color__bg_off = 0xff0000
 
 color_bg_on = 0x00ff00
 
-Version = "1.1"
+Version = "2.0"
 Header = "Offworld Overwatch "..Version.." "
 
-SignalCount = 8
+signals = {}
+	signals[1] = { Signal_Maintenance = 1869, Signal_Name = "Moon, Helium-3:", good = nil, bad = nil, align = align_pump, row = 7 }
+	signals[2] = { Signal_Maintenance = 2013, Signal_Name = "Ross ba, SaltWater:", good = nil, bad = nil, align= align_pump, row = 9 }
+	signals[3] = { Signal_Maintenance = 2012, Signal_Name = "Mars, Chlorobenzene:", good = nil, bad = nil, align= align_pump, row = 11 }
+	signals[4] = { Signal_Maintenance = 2025, Signal_Name = "Pluto, Fluorine:", good = nil, bad = nil, align= align_pump, row = 13 }
+	signals[5] = { Signal_Maintenance = 2014, Signal_Name = "BarnadaF:", good = nil, bad = nil, align= align_miner, row = 7 }
+	signals[6] = { Signal_Maintenance = 2588, Signal_Name = "VegaB-1", good = nil, bad = nil, align= align_miner, row = 9 }
+	signals[7] = { Signal_Maintenance = 2588, Signal_Name = "VegaB-2", good = nil, bad = nil, align= align_miner, row = 11 }
+	signals[8] = { Signal_Maintenance = 2887, Signal_Name = "Radon, Production:", good = "  High ", bad = "     Low    ", align= align_pump, row = 15 }
 
-Signal1_Name = "Moon, Helium-3:"
-Signal1_Maintenance = 1869
-
-Signal2_Name = "Ross ba, SaltWater:"
-Signal2_Maintenance = 2013
-
-Signal3_Name = "Mars, Chlorobenzene:"
-Signal3_Maintenance = 2012
-
-Signal4_Name = "Pluto, Fluorine:"
-Signal4_Maintenance = 2025
-
-Signal5_Name = "BarnadaF:"
-Signal5_Maintenance = 2014
-
-Signal6_Name = "VegaB-1:"
-Signal6_Maintenance = 2588
-
-Signal7_Name = "VegaB-2:"
-Signal7_Maintenance = 2589
-
-Signal8_Name = "Radon, Production:"
-Signal8_Maintenance = 2887
-good8 = "  High "
-bad8 = "     Low    "
 -- Configs Ende
-
--- UI Build
-function UI_Build1()
-term.clear()
-component.gpu.setResolution(80,20)
-component.gpu.setForeground(0x00FFFF)
-term.setCursor(1,1)
-print("╭───────────────────────┬────────────────┬─────────────────────────────────┬───╮")
-print("│                       │                │                                 │   │")
-print("├───────────────────────╯                │                                 ╰───┤")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("├────────────────────────────────────────┼─────────────────────────────────────┤")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("│                                        │                                     │")
-print("╰────────────────────────────────────────┴─────────────────────────────────────╯")
-term.setCursor(2,2)
-component.gpu.setForeground(fg_standart)
-print(Header)
-end
-
-UI_Build1()
-
-function sleep_timer()
- term.setCursor(78,2)
- print("┼")
- os.sleep(0.5)
- term.setCursor(78,2)
- print("╳")
- os.sleep(0.5)
-end
--- UI Stuff ende
 
 function refresh_wireless_state(frequency, Name, good, bad, xcord, ycord)
  good = good or "  Fine "
@@ -114,21 +56,14 @@ end
 end
 
 function refresh_ui()
- refresh_wireless_state(Signal1_Maintenance, Signal1_Name, nil, nil, align_pump, 7)
- refresh_wireless_state(Signal2_Maintenance, Signal2_Name, nil, nil, align_pump, 9)
- refresh_wireless_state(Signal3_Maintenance, Signal3_Name, nil, nil, align_pump, 11)
- refresh_wireless_state(Signal4_Maintenance, Signal4_Name, nil, nil, align_pump, 13)
- refresh_wireless_state(Signal8_Maintenance, Signal8_Name, good8, bad8, align_pump, 15)
- 
- refresh_wireless_state(Signal5_Maintenance, Signal5_Name, nil, nil, align_miner, 7)
- refresh_wireless_state(Signal6_Maintenance, Signal6_Name, nil, nil, align_miner, 9)
- refresh_wireless_state(Signal7_Maintenance, Signal7_Name, nil, nil, align_miner, 11)
- 
- -- Next Step: Refresh UI mit Array lösen? (z.B. Signal.1.Name / Signal.1.Freq (Maintenance)) um es dann mit Signal.X.Name mit X+1 zu rechnen probaly???)
+for i = 1, #signals, 1 do
+ refresh_wireless_state(signals[i].Signal_Maintenance, signals[i].Signal_Name, signals[i].good, signals[i].bad, signals[i].align, signals[i].row)
+end
  
 end
 
--- Running Loop
+-- Running Program
+UI_Build()
 while true do
  sleep_timer()
  refresh_ui()
