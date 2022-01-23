@@ -39,7 +39,7 @@ Redstone Signal: 35% and below.
 it stays on until it reached 95%
 
 ToDo: 
-- [ ] #1
+- [ ] CleanUP the Code for easier edit
 - [ ] Do the new UI Design
 - [ ] Make the UI more Dynamic. (Read the SensorInformation() for Voltage)
 - [ ] Do some Maths to Display Charge Rate and how long it needed to Charge or deplete
