@@ -38,7 +38,7 @@ function refresh_wireless_state(frequency, Name, good, bad, xcord, ycord)
  term.setCursor(xcord-22, ycord)
  print(Name)
 rs.setWirelessFrequency(frequency)
-if tostring(rs.getWirelessInput()) == "false" then
+if not rs.getWirelessInput() then
  term.setCursor(xcord, ycord)
  component.gpu.setBackground(color_bg_on)
  component.gpu.setForeground(0xFFFF00)
