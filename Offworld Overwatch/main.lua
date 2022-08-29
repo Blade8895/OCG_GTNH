@@ -10,6 +10,7 @@ rs = component.redstone
 fg_standart = component.gpu.getForeground()
 bg_standart = component.gpu.getBackground()
 
+-- Align Variables. Sets the X Cord on the Screen
 align_pump = 26
 align_miner = 67
 
@@ -19,7 +20,9 @@ color_bg_on = 0x00ff00
 
 Version = "2.0"
 Header = "Offworld Overwatch "..Version.." "
-
+-- You can ADD Your machines here
+-- this is the clean table:
+-- signals[i] = { Signal_Maintenance = Wireless Frequency Number, Signal_Name = Display Name on the Screen as a String, good = Alternate text as a String when there is no Signal. otherwise just use nil, bad = Alternate text as a String when there is a Signal. otherwise just use nil, align = Left or Right (use Variables), row = Wich Row the Line will be in. (7, 9, 11, 13, 15, 17}
 signals = {}
 	signals[1] = { Signal_Maintenance = 1869, Signal_Name = "Moon, Helium-3:", good = nil, bad = nil, align = align_pump, row = 7 }
 	signals[2] = { Signal_Maintenance = 2013, Signal_Name = "Ross ba, SaltWater:", good = nil, bad = nil, align= align_pump, row = 9 }
