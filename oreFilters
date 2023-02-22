@@ -1,6 +1,6 @@
 {
     {
-        name = "Crushed Gold Ore",
+        name = "crushedGold",
         filter = 1,
         damage = -1
     }
