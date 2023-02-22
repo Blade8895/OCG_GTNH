@@ -6,8 +6,18 @@
     },
 	{
         name = "Crushed Magnetite Ore",
-        filter = 1,
+        filter = 2,
         damage = 5870
+    },
+	{
+        name = "Crushed Silver Ore",
+        filter = 1,
+        damage = 5054
+    },
+	{
+        name = "Purified Magnetite Ore",
+        filter = 1,
+        damage = 6870
     },
 	{
         name = "Crushed Vanadium Magnetite Ore",
@@ -21,12 +31,32 @@
     },
 	{
         name = "Impure Pile of Magnetite Dust",
-        filter = 5,
+        filter = 2,
         damage = 3870
-    }
+    },
+	{
+        name = "Impure Pile of Vanadium Magnetite Dust",
+        filter = 2,
+        damage = 3923
+    },
+	{
+        name = "Impure Pile of Stone Dust",
+        filter = 2,
+        damage = 3299
+    },
+	{
+        name = "Impure Pile of Iron Dust",
+        filter = 2,
+        damage = 3032
+    },
+	{
+        name = "Impure Pile of Silver Dust",
+        filter = 2,
+        damage = 3054
+    },
 	{
         name = "Impure Pile of Redstone Dust",
-        filter = 5,
-        damage = 5810
+        filter = 2,
+        damage = 3810
     }
 }
