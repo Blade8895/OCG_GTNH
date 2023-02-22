@@ -35,6 +35,16 @@
         damage = 5522
     },
 	{
+        name = "Crushed Quartzite Ore",
+        filter = 2,
+        damage = 5523
+    },
+	{
+        name = "Crushed Certus Quartz Ore",
+        filter = 2,
+        damage = 5516
+    },
+	{
         name = "Purified Magnetite Ore",
         filter = 1,
         damage = 6870
@@ -43,6 +53,16 @@
         name = "Purified Nether Quarz Ore",
         filter = 6,
         damage = 6522
+    },
+	{
+        name = "Purified Quartzite Ore",
+        filter = 6,
+        damage = 6523
+    },
+	{
+        name = "Purified Certus Quartz Ore",
+        filter = 6,
+        damage = 6516
     },
 	{
         name = "Impure Pile of Magnetite Dust",
