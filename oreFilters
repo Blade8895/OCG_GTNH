@@ -1,7 +1,32 @@
 {
     {
-        name = "crushedGold",
+        name = "Crushed Gold Ore",
         filter = 1,
-        damage = -1
+        damage = 5086
+    },
+	{
+        name = "Crushed Magnetite Ore",
+        filter = 1,
+        damage = 5870
+    },
+	{
+        name = "Crushed Vanadium Magnetite Ore",
+        filter = 4,
+        damage = 5923
+    },
+	{
+        name = "Crushed Redstone Ore",
+        filter = 4,
+        damage = 5810
+    },
+	{
+        name = "Impure Pile of Magnetite Dust",
+        filter = 5,
+        damage = 3870
+    }
+	{
+        name = "Impure Pile of Redstone Dust",
+        filter = 5,
+        damage = 5810
     }
 }
