@@ -15,11 +15,6 @@
         damage = 5054
     },
 	{
-        name = "Purified Magnetite Ore",
-        filter = 1,
-        damage = 6870
-    },
-	{
         name = "Crushed Vanadium Magnetite Ore",
         filter = 4,
         damage = 5923
@@ -28,6 +23,26 @@
         name = "Crushed Redstone Ore",
         filter = 4,
         damage = 5810
+    },
+	{
+        name = "Crushed Grossular Ore",
+        filter = 1,
+        damage = 5831
+    },
+	{
+        name = "Crushed Nether Quartz Ore",
+        filter = 2,
+        damage = 5522
+    },
+	{
+        name = "Purified Magnetite Ore",
+        filter = 1,
+        damage = 6870
+    },
+	{
+        name = "Purified Nether Quarz Ore",
+        filter = 6,
+        damage = 6522
     },
 	{
         name = "Impure Pile of Magnetite Dust",
@@ -53,6 +68,11 @@
         name = "Impure Pile of Silver Dust",
         filter = 2,
         damage = 3054
+    },
+	{
+        name = "Impure Pile of Pyrolusite Dust",
+        filter = 2,
+        damage = 3943
     },
 	{
         name = "Impure Pile of Redstone Dust",
