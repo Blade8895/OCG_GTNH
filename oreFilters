@@ -1,0 +1,7 @@
+{
+    {
+        name = "Crushed Gold Ore",
+        filter = 1,
+        damage = -1
+    }
+}
