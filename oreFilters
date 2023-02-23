@@ -15,6 +15,11 @@
         damage = 5054
     },
 	{
+        name = "Crushed Iron Ore",
+        filter = 5,
+        damage = 5032
+    },
+	{
         name = "Crushed Vanadium Magnetite Ore",
         filter = 4,
         damage = 5923
@@ -33,6 +38,31 @@
         name = "Crushed Tetrahedrite Ore",
         filter = 2,
         damage = 5840
+    },
+	{
+        name = "Crushed Electrotine Ore",
+        filter = 1,
+        damage = 5812
+    },
+	{
+        name = "Crushed Lazurite Ore",
+        filter = 1,
+        damage = 5524
+    },
+	{
+        name = "Crushed Lepidolite Ore",
+        filter = 1,
+        damage = 5907
+    },
+	{
+        name = "Ground Basaltic Mineral Sand",
+        filter = 5,
+        damage = 5935
+    },
+	{
+        name = "Ground Fullers Earth",
+        filter = 1,
+        damage = 5928
     },
 	{
         name = "Crushed Nether Quartz Ore",
@@ -103,6 +133,26 @@
         name = "Impure Pile of Pyrolusite Dust",
         filter = 2,
         damage = 3943
+    },
+	{
+        name = "Impure Pile of Coal Dust",
+        filter = 2,
+        damage = 3535
+    },
+	{
+        name = "Impure Pile of Saltpeter Dust",
+        filter = 2,
+        damage = 3836
+    },
+	{
+        name = "Impure Pile of Apatite Dust",
+        filter = 2,
+        damage = 3530
+    },
+	{
+        name = "Impure Pile of Electrotine Dust",
+        filter = 2,
+        damage = 3812
     },
 	{
         name = "Impure Pile of Redstone Dust",
