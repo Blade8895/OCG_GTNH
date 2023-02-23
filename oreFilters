@@ -10,6 +10,31 @@
         damage = 5502
     },
     {
+        name = "Crushed Mica Ore",
+        filter = 1,
+        damage = 5901
+    },
+    {
+        name = "Crushed Coal Ore",
+        filter = 2,
+        damage = 5535
+    },
+    {
+        name = "Crushed Galena Ore",
+        filter = 2,
+        damage = 5830
+    },
+    {
+        name = "Crushed Sphalerite Ore",
+        filter = 1,
+        damage = 5839
+    },
+    {
+        name = "Crushed Tin Ore",
+        filter = 1,
+        damage = 5057
+    },
+    {
         name = "Crushed Pyrite Ore",
         filter = 4,
         damage = 5834
@@ -120,6 +145,21 @@
         damage = 6840
     },
 	{
+        name = "Purified Coal Ore",
+        filter = 1,
+        damage = 6535
+    },
+	{
+        name = "Purified Galena Ore",
+        filter = 7,
+        damage = 6830
+    },
+	{
+        name = "Purified Sphalerite Ore",
+        filter = 7,
+        damage = 6839
+    },
+	{
         name = "Purified Nether Quarz Ore",
         filter = 6,
         damage = 6522
@@ -190,6 +230,16 @@
         damage = 3530
     },
 	{
+        name = "Impure Pile of Tin Dust",
+        filter = 5,
+        damage = 3530
+    },
+	{
+        name = "Impure Pile of Mica Dust",
+        filter = 2,
+        damage = 3901
+    },
+	{
         name = "Impure Pile of Electrotine Dust",
         filter = 2,
         damage = 3812
@@ -228,6 +278,21 @@
         name = "Impure Pile of Asbestos Dust",
         filter = 2,
         damage = 3946
+    },
+	{
+        name = "Impure Pile of Lepidolite Dust",
+        filter = 2,
+        damage = 3907
+    },
+	{
+        name = "Impure Pile of Galena Dust",
+        filter = 5,
+        damage = 3830
+    },
+	{
+        name = "Impure Pile of Sphalerite Dust",
+        filter = 2,
+        damage = 3839
     },
 	{
         name = "Impure Pile of Redstone Dust",
