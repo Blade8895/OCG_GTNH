@@ -339,7 +339,7 @@ local function interrupt()
 end
 
 local function filter_update()
-    require("shell").execute("cd /home/")
+    require("shell").execute("cd /home")
 	require("shell").execute("update")
 end
 
@@ -412,7 +412,7 @@ local function generateMenu()
     if updateAvailable() then
         gui.smallButton(graphics.context().width - 21, graphics.context().height, "Update available!", update)
     end
-    gui.bigButton(location.x + 40, location.y + graphics.context().height - 5, "Filter Update", filter_update)
+    gui.bigButton(location.x + 60, location.y + graphics.context().height - 5, "Filter Update", filter_update)
 	gui.smallLogo(graphics.context().width - 20, graphics.context().height - 4, require("nidas_version"))
     addWindowButtons()
     component.gpu.fill(1, 1, 160, 50, " ")
