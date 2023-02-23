@@ -4,6 +4,31 @@
         filter = 1,
         damage = 5086
     },
+    {
+        name = "Crushed Ruby Ore",
+        filter = 1,
+        damage = 5502
+    },
+    {
+        name = "Crushed Pyrite Ore",
+        filter = 4,
+        damage = 5834
+    },
+    {
+        name = "Crushed Saltpeter Ore",
+        filter = 4,
+        damage = 5836
+    },
+    {
+        name = "Crushed Lapis Ore",
+        filter = 1,
+        damage = 5526
+    },
+    {
+        name = "Crushed Realgar Ore",
+        filter = 1,
+        damage = 5913
+    },
 	{
         name = "Crushed Magnetite Ore",
         filter = 2,
@@ -150,6 +175,16 @@
         damage = 3836
     },
 	{
+        name = "Impure Pile of Realgar Dust",
+        filter = 2,
+        damage = 3913
+    },
+	{
+        name = "Impure Pile of Lapis Dust",
+        filter = 2,
+        damage = 3526
+    },
+	{
         name = "Impure Pile of Apatite Dust",
         filter = 2,
         damage = 3530
@@ -168,6 +203,11 @@
         name = "Impure Pile of Cassiterite Sand",
         filter = 5,
         damage = 3937
+    },
+	{
+        name = "Impure Pile of Pyrite Dust",
+        filter = 5,
+        damage = 3834
     },
 	{
         name = "Impure Pile of Yellow Limonite Dust",
