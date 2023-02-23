@@ -16,7 +16,7 @@
     },
 	{
         name = "Crushed Iron Ore",
-        filter = 5,
+        filter = 4,
         damage = 5032
     },
 	{
@@ -53,6 +53,11 @@
         name = "Crushed Lepidolite Ore",
         filter = 1,
         damage = 5907
+    },
+	{
+        name = "Crushed Sulfur Ore",
+        filter = 4,
+        damage = 5022
     },
 	{
         name = "Ground Basaltic Mineral Sand",
@@ -153,6 +158,36 @@
         name = "Impure Pile of Electrotine Dust",
         filter = 2,
         damage = 3812
+    },
+	{
+        name = "Impure Pile of Sulfur Dust",
+        filter = 2,
+        damage = 3022
+    },
+	{
+        name = "Impure Pile of Cassiterite Sand",
+        filter = 5,
+        damage = 3937
+    },
+	{
+        name = "Impure Pile of Yellow Limonite Dust",
+        filter = 5,
+        damage = 3931
+    },
+	{
+        name = "Impure Pile of Brown Limonite Dust",
+        filter = 5,
+        damage = 3930
+    },
+	{
+        name = "Impure Pile of Garnet Sand",
+        filter = 2,
+        damage = 3938
+    },
+	{
+        name = "Impure Pile of Asbestos Dust",
+        filter = 2,
+        damage = 3946
     },
 	{
         name = "Impure Pile of Redstone Dust",
