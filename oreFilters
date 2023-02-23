@@ -10,6 +10,16 @@
         damage = 5502
     },
     {
+        name = "Crushed Brown Limonite Ore",
+        filter = 4,
+        damage = 5930
+    },
+    {
+        name = "Crushed Yellow Limonite Ore",
+        filter = 4,
+        damage = 5931
+    },
+    {
         name = "Crushed Mica Ore",
         filter = 1,
         damage = 5901
