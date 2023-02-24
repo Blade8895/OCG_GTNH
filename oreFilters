@@ -186,7 +186,7 @@
     },
 	{
         name = "Impure Pile of Magnetite Dust",
-        filter = 2,
+        filter = 5,
         damage = 3870
     },
 	{
