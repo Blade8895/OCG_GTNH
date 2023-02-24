@@ -10,6 +10,36 @@
         damage = 5502
     },
     {
+        name = "Crushed Aer Crystals",
+        filter = 2,
+        damage = 5540
+    },
+    {
+        name = "Crushed Ordo Crystals",
+        filter = 2,
+        damage = 5545
+    },
+    {
+        name = "Crushed Aqua Crystals",
+        filter = 2,
+        damage = 5543
+    },
+    {
+        name = "Crushed Terra Crystals",
+        filter = 2,
+        damage = 5542
+    },
+    {
+        name = "Crushed Perditio Crystals",
+        filter = 2,
+        damage = 5544
+    },
+    {
+        name = "Crushed Ignis Crystals",
+        filter = 2,
+        damage = 5541
+    },
+    {
         name = "Crushed Brown Limonite Ore",
         filter = 4,
         damage = 5930
@@ -134,6 +164,11 @@
         filter = 1,
         damage = 5928
     },
+    {
+        name = "Ground Cassiterite Sand",
+        filter = 1,
+        damage = 5937
+    },
 	{
         name = "Crushed Nether Quartz Ore",
         filter = 2,
@@ -190,6 +225,36 @@
         damage = 6516
     },
 	{
+        name = "Purified Aer Crystals",
+        filter = 6,
+        damage = 6540
+    },
+	{
+        name = "Purified Ordo Crystals",
+        filter = 6,
+        damage = 6545
+    },
+	{
+        name = "Purified Aqua Crystals",
+        filter = 6,
+        damage = 6543
+    },
+	{
+        name = "Purified Terra Crystals",
+        filter = 6,
+        damage = 6542
+    },
+	{
+        name = "Purified Perditio Crystals",
+        filter = 6,
+        damage = 6544
+    },
+	{
+        name = "Purified Ignis Crystals",
+        filter = 6,
+        damage = 6541
+    },
+	{
         name = "Impure Pile of Magnetite Dust",
         filter = 5,
         damage = 3870
@@ -198,6 +263,11 @@
         name = "Impure Pile of Cinnabar Dust",
         filter = 2,
         damage = 3826
+    },
+	{
+        name = "Impure Pile of Tin Dust",
+        filter = 2,
+        damage = 3057
     },
 	{
         name = "Impure Pile of Vanadium Magnetite Dust",
@@ -293,6 +363,36 @@
         name = "Impure Pile of Garnet Sand",
         filter = 2,
         damage = 3938
+    },
+	{
+        name = "Impure Pile of Ignis Crystal Powder",
+        filter = 2,
+        damage = 3541
+    },
+	{
+        name = "Impure Pile of Perditio Crystal Powder",
+        filter = 2,
+        damage = 3544
+    },
+	{
+        name = "Impure Pile of Terra Crystal Powder",
+        filter = 2,
+        damage = 3542
+    },
+	{
+        name = "Impure Pile of Aqua Crystal Powder",
+        filter = 2,
+        damage = 3543
+    },
+	{
+        name = "Impure Pile of Ordo Crystal Powder",
+        filter = 2,
+        damage = 3545
+    },
+	{
+        name = "Impure Pile of Aer Crystal Powder",
+        filter = 2,
+        damage = 3540
     },
 	{
         name = "Impure Pile of Asbestos Dust",
