@@ -145,6 +145,11 @@
         damage = 5524
     },
 	{
+        name = "Crushed Sodalite Ore",
+        filter = 1,
+        damage = 5525
+    },
+	{
         name = "Crushed Lepidolite Ore",
         filter = 1,
         damage = 5907
@@ -298,6 +303,16 @@
         name = "Impure Pile of Coal Dust",
         filter = 2,
         damage = 3535
+    },
+	{
+        name = "Impure Pile of Lazurite Dust",
+        filter = 2,
+        damage = 3524
+    },
+	{
+        name = "Impure Pile of Sodalite Dust",
+        filter = 2,
+        damage = 3525
     },
 	{
         name = "Impure Pile of Saltpeter Dust",
