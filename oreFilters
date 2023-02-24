@@ -64,6 +64,11 @@
         filter = 1,
         damage = 5913
     },
+    {
+        name = "Crushed Cinnabar Ore",
+        filter = 1,
+        damage = 5826
+    },
 	{
         name = "Crushed Magnetite Ore",
         filter = 2,
@@ -188,6 +193,11 @@
         name = "Impure Pile of Magnetite Dust",
         filter = 5,
         damage = 3870
+    },
+	{
+        name = "Impure Pile of Cinnabar Dust",
+        filter = 2,
+        damage = 3826
     },
 	{
         name = "Impure Pile of Vanadium Magnetite Dust",
