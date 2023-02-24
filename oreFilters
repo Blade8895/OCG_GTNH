@@ -80,6 +80,11 @@
         damage = 5834
     },
     {
+        name = "Crushed Diamond Ore",
+        filter = 2,
+        damage = 5500
+    },
+    {
         name = "Crushed Saltpeter Ore",
         filter = 4,
         damage = 5836
@@ -108,6 +113,11 @@
         name = "Crushed Silver Ore",
         filter = 1,
         damage = 5054
+    },
+	{
+        name = "Crushed Chalcopyrite Ore",
+        filter = 1,
+        damage = 5855
     },
 	{
         name = "Crushed Iron Ore",
@@ -260,9 +270,19 @@
         damage = 6541
     },
 	{
+        name = "Purified Diamond Ore",
+        filter = 6,
+        damage = 6500
+    },
+	{
         name = "Impure Pile of Magnetite Dust",
         filter = 5,
         damage = 3870
+    },
+	{
+        name = "Impure Pile of Diamond Dust",
+        filter = 2,
+        damage = 3500
     },
 	{
         name = "Impure Pile of Cinnabar Dust",
@@ -323,6 +343,11 @@
         name = "Impure Pile of Realgar Dust",
         filter = 2,
         damage = 3913
+    },
+	{
+        name = "Impure Pile of Chalcopyrite Dust",
+        filter = 5,
+        damage = 3855
     },
 	{
         name = "Impure Pile of Lapis Dust",
