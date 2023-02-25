@@ -350,6 +350,11 @@
         damage = 3855
     },
 	{
+        name = "Impure Pile of Quartzite Dust",
+        filter = 2,
+        damage = 3523
+    },
+	{
         name = "Impure Pile of Lapis Dust",
         filter = 2,
         damage = 3526
