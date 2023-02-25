@@ -59,6 +59,11 @@
         filter = 2,
         damage = 5535
     },
+	{
+        name = "Crushed Graphite Ore",
+        filter = 1,
+        damage = 5865
+    },
     {
         name = "Crushed Galena Ore",
         filter = 2,
@@ -323,6 +328,11 @@
         name = "Impure Pile of Coal Dust",
         filter = 2,
         damage = 3535
+    },
+	{
+        name = "Impure Pile of Graphite Dust",
+        filter = 2,
+        damage = 3865
     },
 	{
         name = "Impure Pile of Lazurite Dust",
