@@ -59,7 +59,7 @@
         filter = 2,
         damage = 5535
     },
-	{
+	  {
         name = "Crushed Graphite Ore",
         filter = 1,
         damage = 5865
