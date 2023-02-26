@@ -10,6 +10,26 @@
         damage = 5502
     },
     {
+        name = "Crushed Pyrochlore Ore",
+        filter = 1,
+        damage = 5607
+    },
+    {
+        name = "Crushed Asbestos Ore",
+        filter = 1,
+        damage = 5946
+    },
+    {
+        name = "Crushed Diatomite Ore",
+        filter = 1,
+        damage = 5948
+    },
+    {
+        name = "Crushed Apatite Ore",
+        filter = 2,
+        damage = 5530
+    },
+    {
         name = "Crushed Aer Crystals",
         filter = 2,
         damage = 5540
@@ -53,6 +73,11 @@
         name = "Crushed Mica Ore",
         filter = 1,
         damage = 5901
+    },
+    {
+        name = "Ground Garnet Sand",
+        filter = 1,
+        damage = 5938
     },
     {
         name = "Crushed Coal Ore",
@@ -185,8 +210,18 @@
         damage = 5022
     },
     {
+        name = "Crushed Gypsum Ore",
+        filter = 1,
+        damage = 5934
+    },
+    {
         name = "Ground Basaltic Mineral Sand",
         filter = 5,
+        damage = 5935
+    },
+    {
+        name = "Ground Granitic Mineral Sand",
+        filter = 4,
         damage = 5935
     },
     {
@@ -223,6 +258,11 @@
         name = "Purified Tetrahedrite Ore",
         filter = 1,
         damage = 6840
+    },
+    {
+        name = "Purified Apatite Ore",
+        filter = 1,
+        damage = 6530
     },
     {
         name = "Purified Coal Ore",
@@ -300,6 +340,11 @@
         damage = 3870
     },
     {
+        name = "Impure Pile of Apatite Dust",
+        filter = 2,
+        damage = 3530
+    },
+    {
         name = "Impure Pile of Diamond Dust",
         filter = 2,
         damage = 3500
@@ -340,6 +385,11 @@
         damage = 3054
     },
     {
+        name = "Impure Pile of Pyrochlore Dust",
+        filter = 2,
+        damage = 3607
+    },
+    {
         name = "Impure Pile of Pyrolusite Dust",
         filter = 2,
         damage = 3943
@@ -373,6 +423,11 @@
         name = "Impure Pile of Realgar Dust",
         filter = 2,
         damage = 3913
+    },
+    {
+        name = "Impure Pile of Gypsum Dust",
+        filter = 2,
+        damage = 3934
     },
     {
         name = "Impure Pile of Chalcopyrite Dust",
@@ -410,6 +465,11 @@
         damage = 3812
     },
     {
+        name = "Impure Pile of Basaltic Mineral Sand",
+        filter = 5,
+        damage = 3935
+    },
+    {
         name = "Impure Pile of Sulfur Dust",
         filter = 2,
         damage = 3022
@@ -438,6 +498,11 @@
         name = "Impure Pile of Garnet Sand",
         filter = 2,
         damage = 3938
+    },
+    {
+        name = "Impure Pile of Granitic Mineral Sand",
+        filter = 5,
+        damage = 3936
     },
     {
         name = "Impure Pile of Ignis Crystal Powder",
@@ -473,6 +538,11 @@
         name = "Impure Pile of Asbestos Dust",
         filter = 2,
         damage = 3946
+    },
+    {
+        name = "Impure Pile of Diatomite Dust",
+        filter = 2,
+        damage = 3948
     },
     {
         name = "Impure Pile of Lepidolite Dust",
