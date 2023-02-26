@@ -550,6 +550,11 @@
         damage = 3907
     },
     {
+        name = "Impure Pile of Fullers Earth",
+        filter = 2,
+        damage = 3928
+    },
+    {
         name = "Impure Pile of Galena Dust",
         filter = 5,
         damage = 3830
