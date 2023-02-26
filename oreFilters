@@ -222,7 +222,7 @@
     {
         name = "Ground Granitic Mineral Sand",
         filter = 4,
-        damage = 5935
+        damage = 5936
     },
     {
         name = "Ground Fullers Earth",
