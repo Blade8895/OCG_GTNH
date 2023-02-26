@@ -60,6 +60,11 @@
         damage = 5535
     },
     {
+        name = "Crushed Ardite Ore",
+        filter = 1,
+        damage = 5382
+    },
+    {
         name = "Crushed Graphite Ore",
         filter = 1,
         damage = 5865
