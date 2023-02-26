@@ -70,6 +70,11 @@
         damage = 5865
     },
     {
+        name = "Crushed Copper Ore",
+        filter = 2,
+        damage = 5035
+    },
+    {
         name = "Crushed Galena Ore",
         filter = 2,
         damage = 5830
@@ -114,77 +119,77 @@
         filter = 1,
         damage = 5826
     },
-	{
+    {
         name = "Crushed Magnetite Ore",
         filter = 2,
         damage = 5870
     },
-	{
+    {
         name = "Crushed Silver Ore",
         filter = 1,
         damage = 5054
     },
-	{
+    {
         name = "Crushed Chalcopyrite Ore",
         filter = 1,
         damage = 5855
     },
-	{
+    {
         name = "Crushed Iron Ore",
         filter = 4,
         damage = 5032
     },
-	{
+    {
         name = "Crushed Vanadium Magnetite Ore",
         filter = 4,
         damage = 5923
     },
-	{
+    {
         name = "Crushed Redstone Ore",
         filter = 4,
         damage = 5810
     },
-	{
+    {
         name = "Crushed Grossular Ore",
         filter = 1,
         damage = 5831
     },
-	{
+    {
         name = "Crushed Tetrahedrite Ore",
         filter = 2,
         damage = 5840
     },
-	{
+    {
         name = "Crushed Electrotine Ore",
         filter = 1,
         damage = 5812
     },
-	{
+    {
         name = "Crushed Lazurite Ore",
         filter = 1,
         damage = 5524
     },
-	{
+    {
         name = "Crushed Sodalite Ore",
         filter = 1,
         damage = 5525
     },
-	{
+    {
         name = "Crushed Lepidolite Ore",
         filter = 1,
         damage = 5907
     },
-	{
+    {
         name = "Crushed Sulfur Ore",
         filter = 4,
         damage = 5022
     },
-	{
+    {
         name = "Ground Basaltic Mineral Sand",
         filter = 5,
         damage = 5935
     },
-	{
+    {
         name = "Ground Fullers Earth",
         filter = 1,
         damage = 5928
@@ -194,287 +199,297 @@
         filter = 1,
         damage = 5937
     },
-	{
+    {
         name = "Crushed Nether Quartz Ore",
         filter = 2,
         damage = 5522
     },
-	{
+    {
         name = "Crushed Quartzite Ore",
         filter = 2,
         damage = 5523
     },
-	{
+    {
         name = "Crushed Certus Quartz Ore",
         filter = 2,
         damage = 5516
     },
-	{
+    {
         name = "Purified Magnetite Ore",
         filter = 1,
         damage = 6870
     },
-	{
+    {
         name = "Purified Tetrahedrite Ore",
         filter = 1,
         damage = 6840
     },
-	{
+    {
         name = "Purified Coal Ore",
         filter = 1,
         damage = 6535
     },
-	{
+    {
+        name = "Purified Copper Ore",
+        filter = 1,
+        damage = 6035
+    },
+    {
         name = "Purified Galena Ore",
         filter = 7,
         damage = 6830
     },
-	{
+    {
         name = "Purified Sphalerite Ore",
         filter = 7,
         damage = 6839
     },
-	{
+    {
         name = "Purified Nether Quarz Ore",
         filter = 6,
         damage = 6522
     },
-	{
+    {
         name = "Purified Quartzite Ore",
         filter = 6,
         damage = 6523
     },
-	{
+    {
         name = "Purified Certus Quartz Ore",
         filter = 6,
         damage = 6516
     },
-	{
+    {
         name = "Purified Aer Crystals",
         filter = 6,
         damage = 6540
     },
-	{
+    {
         name = "Purified Ordo Crystals",
         filter = 6,
         damage = 6545
     },
-	{
+    {
         name = "Purified Aqua Crystals",
         filter = 6,
         damage = 6543
     },
-	{
+    {
         name = "Purified Terra Crystals",
         filter = 6,
         damage = 6542
     },
-	{
+    {
         name = "Purified Perditio Crystals",
         filter = 6,
         damage = 6544
     },
-	{
+    {
         name = "Purified Ignis Crystals",
         filter = 6,
         damage = 6541
     },
-	{
+    {
         name = "Purified Diamond Ore",
         filter = 6,
         damage = 6500
     },
-	{
+    {
         name = "Impure Pile of Magnetite Dust",
         filter = 5,
         damage = 3870
     },
-	{
+    {
         name = "Impure Pile of Diamond Dust",
         filter = 2,
         damage = 3500
     },
-	{
+    {
         name = "Impure Pile of Cinnabar Dust",
         filter = 2,
         damage = 3826
     },
-	{
+    {
         name = "Impure Pile of Tin Dust",
         filter = 2,
         damage = 3057
     },
-	{
+    {
         name = "Impure Pile of Vanadium Magnetite Dust",
         filter = 2,
         damage = 3923
     },
-	{
+    {
         name = "Impure Pile of Stone Dust",
         filter = 2,
         damage = 3299
     },
-	{
+    {
         name = "Impure Pile of Iron Dust",
         filter = 2,
         damage = 3032
     },
-	{
+    {
+        name = "Impure Pile of Copper Dust",
+        filter = 2,
+        damage = 3035
+    },
+    {
         name = "Impure Pile of Silver Dust",
         filter = 2,
         damage = 3054
     },
-	{
+    {
         name = "Impure Pile of Pyrolusite Dust",
         filter = 2,
         damage = 3943
     },
-	{
+    {
         name = "Impure Pile of Coal Dust",
         filter = 2,
         damage = 3535
     },
-	{
+    {
         name = "Impure Pile of Graphite Dust",
         filter = 2,
         damage = 3865
     },
-	{
+    {
         name = "Impure Pile of Lazurite Dust",
         filter = 2,
         damage = 3524
     },
-	{
+    {
         name = "Impure Pile of Sodalite Dust",
         filter = 2,
         damage = 3525
     },
-	{
+    {
         name = "Impure Pile of Saltpeter Dust",
         filter = 2,
         damage = 3836
     },
-	{
+    {
         name = "Impure Pile of Realgar Dust",
         filter = 2,
         damage = 3913
     },
-	{
+    {
         name = "Impure Pile of Chalcopyrite Dust",
         filter = 5,
         damage = 3855
     },
-	{
+    {
         name = "Impure Pile of Quartzite Dust",
         filter = 2,
         damage = 3523
     },
-	{
+    {
         name = "Impure Pile of Lapis Dust",
         filter = 2,
         damage = 3526
     },
-	{
+    {
         name = "Impure Pile of Apatite Dust",
         filter = 2,
         damage = 3530
     },
-	{
+    {
         name = "Impure Pile of Tin Dust",
         filter = 5,
         damage = 3530
     },
-	{
+    {
         name = "Impure Pile of Mica Dust",
         filter = 2,
         damage = 3901
     },
-	{
+    {
         name = "Impure Pile of Electrotine Dust",
         filter = 2,
         damage = 3812
     },
-	{
+    {
         name = "Impure Pile of Sulfur Dust",
         filter = 2,
         damage = 3022
     },
-	{
+    {
         name = "Impure Pile of Cassiterite Sand",
         filter = 5,
         damage = 3937
     },
-	{
+    {
         name = "Impure Pile of Pyrite Dust",
         filter = 5,
         damage = 3834
     },
-	{
+    {
         name = "Impure Pile of Yellow Limonite Dust",
         filter = 5,
         damage = 3931
     },
-	{
+    {
         name = "Impure Pile of Brown Limonite Dust",
         filter = 5,
         damage = 3930
     },
-	{
+    {
         name = "Impure Pile of Garnet Sand",
         filter = 2,
         damage = 3938
     },
-	{
+    {
         name = "Impure Pile of Ignis Crystal Powder",
         filter = 2,
         damage = 3541
     },
-	{
+    {
         name = "Impure Pile of Perditio Crystal Powder",
         filter = 2,
         damage = 3544
     },
-	{
+    {
         name = "Impure Pile of Terra Crystal Powder",
         filter = 2,
         damage = 3542
     },
-	{
+    {
         name = "Impure Pile of Aqua Crystal Powder",
         filter = 2,
         damage = 3543
     },
-	{
+    {
         name = "Impure Pile of Ordo Crystal Powder",
         filter = 2,
         damage = 3545
     },
-	{
+    {
         name = "Impure Pile of Aer Crystal Powder",
         filter = 2,
         damage = 3540
     },
-	{
+    {
         name = "Impure Pile of Asbestos Dust",
         filter = 2,
         damage = 3946
     },
-	{
+    {
         name = "Impure Pile of Lepidolite Dust",
         filter = 2,
         damage = 3907
     },
-	{
+    {
         name = "Impure Pile of Galena Dust",
         filter = 5,
         damage = 3830
     },
-	{
+    {
         name = "Impure Pile of Sphalerite Dust",
         filter = 2,
         damage = 3839
     },
-	{
+    {
         name = "Impure Pile of Redstone Dust",
         filter = 2,
         damage = 3810
