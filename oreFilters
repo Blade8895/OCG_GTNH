@@ -105,6 +105,11 @@
         damage = 5830
     },
     {
+        name = "Crushed Calcite Ore",
+        filter = 1,
+        damage = 5823
+    },
+    {
         name = "Crushed Sphalerite Ore",
         filter = 1,
         damage = 5839
