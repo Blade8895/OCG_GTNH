@@ -500,6 +500,11 @@
         damage = 3086
     },
     {
+        name = "Impure Pile of Endstone Dust",
+        filter = 2,
+        damage = 3808
+    },
+    {
         name = "Impure Pile of Garnet Sand",
         filter = 2,
         damage = 3938
