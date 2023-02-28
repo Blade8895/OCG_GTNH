@@ -145,7 +145,7 @@
         damage = 5340
     },
     {
-        name = "Crushed Desh Iron Ore",
+        name = "Crushed Desh Ore",
         filter = 1,
         damage = 5884
     },
