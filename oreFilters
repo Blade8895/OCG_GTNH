@@ -75,6 +75,11 @@
         damage = 5901
     },
     {
+        name = "Crushed Barite Ore",
+        filter = 1,
+        damage = 5904
+    },
+    {
         name = "Ground Garnet Sand",
         filter = 1,
         damage = 5938
@@ -198,6 +203,11 @@
         name = "Crushed Redstone Ore",
         filter = 4,
         damage = 5810
+    },
+    {
+        name = "Crushed Malachite Ore",
+        filter = 1,
+        damage = 5871
     },
     {
         name = "Crushed Grossular Ore",
