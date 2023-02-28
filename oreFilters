@@ -650,6 +650,21 @@
         damage = 3911
     },
     {
+        name = "Impure Pile of Nether Quartz Dust",
+        filter = 2,
+        damage = 3522
+    },
+    {
+        name = "Impure Pile of Certus Quartz Dust",
+        filter = 2,
+        damage = 3516
+    },
+    {
+        name = "Impure Pile of Bismuth Dust",
+        filter = 2,
+        damage = 3090
+    },
+    {
         name = "Impure Pile of Redstone Dust",
         filter = 2,
         damage = 3810
