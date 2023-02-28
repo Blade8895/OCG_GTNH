@@ -191,6 +191,16 @@
         damage = 5500
     },
     {
+        name = "Crushed Antimony Ore",
+        filter = 1,
+        damage = 5058
+    },
+    {
+        name = "Crushed Arsenic Ore",
+        filter = 1,
+        damage = 5039
+    },
+    {
         name = "Crushed Saltpeter Ore",
         filter = 4,
         damage = 5836
