@@ -522,6 +522,11 @@
         damage = 3607
     },
     {
+        name = "Impure Pile of Antimony Dust",
+        filter = 2,
+        damage = 3058
+    },
+    {
         name = "Impure Pile of Pyrolusite Dust",
         filter = 2,
         damage = 3943
