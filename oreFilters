@@ -20,6 +20,11 @@
         damage = 5028
     },
     {
+        name = "Crushed Cobalt Ore",
+        filter = 1,
+        damage = 5033
+    },
+    {
         name = "Crushed Asbestos Ore",
         filter = 1,
         damage = 5946
