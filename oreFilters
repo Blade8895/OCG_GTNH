@@ -665,6 +665,11 @@
         damage = 3090
     },
     {
+        name = "Impure Pile of Malachite Dust",
+        filter = 5,
+        damage = 3871
+    },
+    {
         name = "Impure Pile of Redstone Dust",
         filter = 2,
         damage = 3810
