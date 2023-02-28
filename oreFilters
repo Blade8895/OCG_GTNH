@@ -15,6 +15,11 @@
         damage = 5607
     },
     {
+        name = "Crushed Titanium Ore",
+        filter = 1,
+        damage = 5028
+    },
+    {
         name = "Crushed Asbestos Ore",
         filter = 1,
         damage = 5946
@@ -125,6 +130,16 @@
         damage = 5089
     },
     {
+        name = "Crushed Bismuth Ore",
+        filter = 1,
+        damage = 5090
+    },
+    {
+        name = "Crushed Meteoric Iron Ore",
+        filter = 1,
+        damage = 5340
+    },
+    {
         name = "Crushed Roasted Iron Ore",
         filter = 1,
         damage = 5548
@@ -134,6 +149,17 @@
         filter = 2,
         damage = 5036
     },
+    {
+        name = "Crushed Oriharukon Ore",
+        filter = 1,
+        damage = 5393
+    },
+    {
+        name = "Crushed Chromite Ore",
+        filter = 2,
+        damage = 5825
+    },
+
     {
         name = "Crushed Sphalerite Ore",
         filter = 1,
@@ -195,6 +221,11 @@
         damage = 5032
     },
     {
+        name = "Crushed Nickel Ore",
+        filter = 2,
+        damage = 5034
+    },
+    {
         name = "Crushed Vanadium Magnetite Ore",
         filter = 4,
         damage = 5923
@@ -203,6 +234,16 @@
         name = "Crushed Redstone Ore",
         filter = 4,
         damage = 5810
+    },
+    {
+        name = "Crushed Tungstate Ore",
+        filter = 1,
+        damage = 5841
+    },
+    {
+        name = "Crushed Scheelite Ore",
+        filter = 2,
+        damage = 5910
     },
     {
         name = "Crushed Malachite Ore",
@@ -305,6 +346,11 @@
         damage = 6535
     },
     {
+        name = "Purified Nickel Ore",
+        filter = 1,
+        damage = 6034
+    },
+    {
         name = "Purified Thorium Ore",
         filter = 6,
         damage = 6096
@@ -385,6 +431,11 @@
         damage = 6500
     },
     {
+        name = "Purified Chromite Ore",
+        filter = 1,
+        damage = 6825
+    },
+    {
         name = "Impure Pile of Magnetite Dust",
         filter = 5,
         damage = 3870
@@ -410,6 +461,12 @@
         damage = 3057
     },
     {
+        name = "Impure Pile of Nickel Dust",
+        filter = 2,
+        damage = 3034
+    },
+
+    {
         name = "Impure Pile of Vanadium Magnetite Dust",
         filter = 2,
         damage = 3923
@@ -418,6 +475,11 @@
         name = "Impure Pile of Stone Dust",
         filter = 2,
         damage = 3299
+    },
+    {
+        name = "Impure Pile of Scheelite Dust",
+        filter = 2,
+        damage = 3910
     },
     {
         name = "Impure Pile of Iron Dust",
@@ -483,6 +545,26 @@
         name = "Impure Pile of Saltpeter Dust",
         filter = 2,
         damage = 3836
+    },
+    {
+        name = "Impure Pile of Tungstate Dust",
+        filter = 2,
+        damage = 3841
+    },
+    {
+        name = "Impure Pile of Red Granite Dust",
+        filter = 2,
+        damage = 3850
+    },
+    {
+        name = "Impure Pile of Desh Dust",
+        filter = 2,
+        damage = 3884
+    },
+    {
+        name = "Impure Pile of Titanium Dust",
+        filter = 2,
+        damage = 3028
     },
     {
         name = "Impure Pile of Realgar Dust",
@@ -675,9 +757,24 @@
         damage = 3090
     },
     {
+        name = "Impure Pile of Meteoric Iron Dust",
+        filter = 2,
+        damage = 3340
+    },
+    {
+        name = "Impure Pile of Oriharukon Dust",
+        filter = 2,
+        damage = 3393
+    },
+    {
         name = "Impure Pile of Malachite Dust",
         filter = 5,
         damage = 3871
+    },
+    {
+        name = "Impure Pile of Chromite Dust",
+        filter = 2,
+        damage = 3825
     },
     {
         name = "Impure Pile of Redstone Dust",
