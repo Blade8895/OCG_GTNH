@@ -110,6 +110,26 @@
         damage = 5823
     },
     {
+        name = "Crushed Thorium Ore",
+        filter = 2,
+        damage = 5096
+    },
+    {
+        name = "Crushed Lead Ore",
+        filter = 1,
+        damage = 5089
+    },
+    {
+        name = "Crushed Roasted Iron Ore",
+        filter = 1,
+        damage = 5548
+    },
+    {
+        name = "Crushed Zinc Ore",
+        filter = 2,
+        damage = 5036
+    },
+    {
         name = "Crushed Sphalerite Ore",
         filter = 1,
         damage = 5839
@@ -275,6 +295,21 @@
         damage = 6535
     },
     {
+        name = "Purified Thorium Ore",
+        filter = 6,
+        damage = 6096
+    },
+    {
+        name = "Purified Coal Ore",
+        filter = 1,
+        damage = 6535
+    },
+    {
+        name = "Purified Zinc Ore",
+        filter = 1,
+        damage = 6036
+    },
+    {
         name = "Purified Copper Ore",
         filter = 1,
         damage = 6035
@@ -383,6 +418,21 @@
         name = "Impure Pile of Copper Dust",
         filter = 2,
         damage = 3035
+    },
+    {
+        name = "Impure Pile of Zinc Dust",
+        filter = 2,
+        damage = 3036
+    },
+    {
+        name = "Impure Pile of Lead Dust",
+        filter = 2,
+        damage = 3089
+    },
+    {
+        name = "Impure Pile of Roasted Iron Dust",
+        filter = 5,
+        damage = 3548
     },
     {
         name = "Impure Pile of Silver Dust",
