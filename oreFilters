@@ -441,6 +441,11 @@
         damage = 6500
     },
     {
+        name = "Purified Scheelite Ore",
+        filter = 1,
+        damage = 6910
+    },
+    {
         name = "Purified Chromite Ore",
         filter = 1,
         damage = 6825
