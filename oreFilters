@@ -186,6 +186,11 @@
         damage = 5834
     },
     {
+        name = "Crushed Pyrope Ore",
+        filter = 2,
+        damage = 5835
+    },
+    {
         name = "Crushed Diamond Ore",
         filter = 2,
         damage = 5500
@@ -459,6 +464,11 @@
         name = "Purified Chromite Ore",
         filter = 1,
         damage = 6825
+    },
+    {
+        name = "Purified Pyrope Ore",
+        filter = 1,
+        damage = 6835
     },
     {
         name = "Impure Pile of Magnetite Dust",
