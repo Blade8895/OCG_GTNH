@@ -85,6 +85,11 @@
         damage = 5901
     },
     {
+        name = "Crushed Pitchblende Ore",
+        filter = 2,
+        damage = 5873
+    },
+    {
         name = "Crushed Barite Ore",
         filter = 1,
         damage = 5904
@@ -190,6 +195,12 @@
         filter = 2,
         damage = 5835
     },
+    {
+        name = "Crushed Uraninite Ore",
+        filter = 3,
+        damage = 5922
+    },
+
     {
         name = "Crushed Diamond Ore",
         filter = 2,
@@ -401,6 +412,11 @@
         damage = 6830
     },
     {
+        name = "Purified Pitchblende Ore",
+        filter = 6,
+        damage = 6873
+    },
+    {
         name = "Purified Sphalerite Ore",
         filter = 7,
         damage = 6839
@@ -530,6 +546,11 @@
         name = "Impure Pile of Zinc Dust",
         filter = 2,
         damage = 3036
+    },
+    {
+        name = "Impure Pile of Pitchblende Dust",
+        filter = 2,
+        damage = 3873
     },
     {
         name = "Impure Pile of Lead Dust",
