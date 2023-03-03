@@ -758,6 +758,11 @@
         damage = 3946
     },
     {
+        name = "Impure Pile of Tetrahedrite Dust",
+        filter = 5,
+        damage = 3840
+    },
+    {
         name = "Impure Pile of Uraninite Dust",
         filter = 2,
         damage = 3922
