@@ -362,6 +362,11 @@
         damage = 5516
     },
     {
+        name = "Crushed Ilmenite Ore",
+        filter = 2,
+        damage = 5918
+    },
+    {
         name = "Purified Magnetite Ore",
         filter = 1,
         damage = 6870
@@ -485,6 +490,11 @@
         name = "Purified Pyrope Ore",
         filter = 1,
         damage = 6835
+    },
+    {
+        name = "Purified Ilmenite Ore",
+        filter = 1,
+        damage = 6918
     },
     {
         name = "Impure Pile of Magnetite Dust",
