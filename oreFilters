@@ -177,7 +177,7 @@
 
     {
         name = "Crushed Sphalerite Ore",
-        filter = 1,
+        filter = 2,
         damage = 5839
     },
     {
