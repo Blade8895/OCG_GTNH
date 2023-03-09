@@ -277,6 +277,11 @@
         damage = 5810
     },
     {
+        name = "Crushed Bastnasite Ore",
+        filter = 1,
+        damage = 5905
+    },
+    {
         name = "Crushed Tungstate Ore",
         filter = 1,
         damage = 5841
@@ -530,6 +535,11 @@
         name = "Impure Pile of Tin Dust",
         filter = 2,
         damage = 3057
+    },
+    {
+        name = "Impure Pile of Bastnasite Dust",
+        filter = 2,
+        damage = 3905
     },
     {
         name = "Impure Pile of Nickel Dust",
