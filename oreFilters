@@ -228,7 +228,7 @@
     },
     {
         name = "Crushed Lapis Ore",
-        filter = 1,
+        filter = 2,
         damage = 5526
     },
     {
@@ -500,6 +500,11 @@
         name = "Purified Chromite Ore",
         filter = 1,
         damage = 6825
+    },
+    {
+        name = "Purified Lapis Ore",
+        filter = 6,
+        damage = 6526
     },
     {
         name = "Purified Pyrope Ore",
