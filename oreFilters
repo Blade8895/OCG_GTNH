@@ -20,6 +20,31 @@
         damage = 5028
     },
     {
+        name = "Crushed Roasted Nickel Ore",
+        filter = 1,
+        damage = 5549
+    },
+    {
+        name = "Crushed Beryllium Ore",
+        filter = 1,
+        damage = 5008
+    },
+    {
+        name = "Crushed Cobaltite Ore",
+        filter = 1,
+        damage = 5827
+    },
+    {
+        name = "Crushed Emerald Ore",
+        filter = 2,
+        damage = 5501
+    },
+    {
+        name = "Crushed Jade Ore",
+        filter = 1,
+        damage = 5537
+    },
+    {
         name = "Crushed Cobalt Ore",
         filter = 1,
         damage = 5033
@@ -191,6 +216,16 @@
         damage = 5834
     },
     {
+        name = "Crushed Pyrolusite Ore",
+        filter = 3,
+        damage = 5943
+    },
+    {
+        name = "Crushed Pentlandite Ore",
+        filter = 1,
+        damage = 5909
+    },
+    {
         name = "Crushed Pyrope Ore",
         filter = 2,
         damage = 5835
@@ -317,6 +352,11 @@
         damage = 5524
     },
     {
+        name = "Crushed Vinteum Ore",
+        filter = 1,
+        damage = 5529
+    },
+    {
         name = "Crushed Sodalite Ore",
         filter = 1,
         damage = 5525
@@ -430,6 +470,11 @@
         name = "Purified Galena Ore",
         filter = 7,
         damage = 6830
+    },
+    {
+        name = "Purified Emerald Ore",
+        filter = 6,
+        damage = 6501
     },
     {
         name = "Purified Pitchblende Ore",
@@ -568,6 +613,11 @@
         damage = 3910
     },
     {
+        name = "Impure Pile of Draconium Dust",
+        filter = 2,
+        damage = 3975
+    },
+    {
         name = "Impure Pile of Iron Dust",
         filter = 2,
         damage = 3032
@@ -581,6 +631,16 @@
         name = "Impure Pile of Zinc Dust",
         filter = 2,
         damage = 3036
+    },
+    {
+        name = "Impure Pile of Vinteum Dust",
+        filter = 2,
+        damage = 3529
+    },
+    {
+        name = "Impure Pile of Jade Dust",
+        filter = 2,
+        damage = 3537
     },
     {
         name = "Impure Pile of Pitchblende Dust",
