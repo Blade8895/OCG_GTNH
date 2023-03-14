@@ -648,6 +648,11 @@
         damage = 3529
     },
     {
+        name = "Impure Pile of Ilmenite Dust",
+        filter = 2,
+        damage = 3918
+    },
+    {
         name = "Impure Pile of Jade Dust",
         filter = 2,
         damage = 3537
@@ -878,6 +883,11 @@
         damage = 3948
     },
     {
+        name = "Impure Pile of Aluminium Dust",
+        filter = 2,
+        damage = 3019
+    },
+    {
         name = "Impure Pile of Lepidolite Dust",
         filter = 2,
         damage = 3907
@@ -891,6 +901,11 @@
         name = "Impure Pile of Galena Dust",
         filter = 5,
         damage = 3830
+    },
+    {
+        name = "Impure Pile of Bauxite Dust",
+        filter = 2,
+        damage = 3822
     },
     {
         name = "Impure Pile of Sphalerite Dust",
