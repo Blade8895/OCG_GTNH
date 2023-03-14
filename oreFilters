@@ -140,6 +140,16 @@
         damage = 5865
     },
     {
+        name = "Crushed Bauxite Ore",
+        filter = 3,
+        damage = 5822
+    },
+    {
+        name = "Crushed Aluminium Ore",
+        filter = 1,
+        damage = 5019
+    },
+    {
         name = "Crushed Copper Ore",
         filter = 2,
         damage = 5035
