@@ -41,7 +41,7 @@
     },
     {
         name = "Crushed Jade Ore",
-        filter = 1,
+        filter = 2,
         damage = 5537
     },
     {
@@ -487,6 +487,11 @@
         damage = 5508
     },
     {
+        name = "Crushed Amber Ore",
+        filter = 2,
+        damage = 5514
+    },
+    {
         name = "Purified Magnetite Ore",
         filter = 1,
         damage = 6870
@@ -690,6 +695,16 @@
         name = "Purified Tanzanite Ore",
         filter = 6,
         damage = 6508
+    },
+    {
+        name = "Purified Amber Ore",
+        filter = 6,
+        damage = 6514
+    },
+    {
+        name = "Purified Jade Ore",
+        filter = 2,
+        damage = 6537
     },
     {
         name = "Impure Pile of Magnetite Dust",
