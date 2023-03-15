@@ -568,7 +568,7 @@
     },
     {
         name = "Purified Ilmenite Ore",
-        filter = 1,
+        filter = 6,
         damage = 6918
     },
     {
