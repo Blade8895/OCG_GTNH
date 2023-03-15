@@ -437,6 +437,56 @@
         damage = 5944
     },
     {
+        name = "Crushed Salt Ore",
+        filter = 2,
+        damage = 5817
+    },
+    {
+        name = "Crushed Amethyst Ore",
+        filter = 2,
+        damage = 5509
+    },
+    {
+        name = "Crushed Blue Topaz Ore",
+        filter = 2,
+        damage = 5513
+    },
+    {
+        name = "Crushed Jasper Ore",
+        filter = 2,
+        damage = 5511
+    },
+    {
+        name = "Crushed Olivine Ore",
+        filter = 2,
+        damage = 5505
+    },
+    {
+        name = "Crushed Opal Ore",
+        filter = 2,
+        damage = 5510
+    },
+    {
+        name = "Crushed Red Garnet Ore",
+        filter = 2,
+        damage = 5527
+    },
+    {
+        name = "Crushed Sapphire Ore",
+        filter = 2,
+        damage = 5503
+    },
+    {
+        name = "Crushed Yellow Garnet Ore",
+        filter = 2,
+        damage = 5528
+    },
+    {
+        name = "Crushed Tanzanite Ore",
+        filter = 2,
+        damage = 5508
+    },
+    {
         name = "Purified Magnetite Ore",
         filter = 1,
         damage = 6870
@@ -590,6 +640,56 @@
         name = "Purified Rock Salt Ore",
         filter = 1,
         damage = 6944
+    },
+    {
+        name = "Purified Salt Ore",
+        filter = 1,
+        damage = 6817
+    },
+    {
+        name = "Purified Amethyst Ore",
+        filter = 6,
+        damage = 6509
+    },
+    {
+        name = "Purified Blue Topaz Ore",
+        filter = 6,
+        damage = 6513
+    },
+    {
+        name = "Purified Jasper Ore",
+        filter = 6,
+        damage = 6511
+    },
+    {
+        name = "Purified Olivine Ore",
+        filter = 6,
+        damage = 6505
+    },
+    {
+        name = "Purified Opal Ore",
+        filter = 6,
+        damage = 6510
+    },
+    {
+        name = "Purified Red Garnet Ore",
+        filter = 6,
+        damage = 6527
+    },
+    {
+        name = "Purified Sapphire Ore",
+        filter = 6,
+        damage = 6503
+    },
+    {
+        name = "Purified Yellow Garnet Ore",
+        filter = 6,
+        damage = 6528
+    },
+    {
+        name = "Purified Tanzanite Ore",
+        filter = 6,
+        damage = 6508
     },
     {
         name = "Impure Pile of Magnetite Dust",
