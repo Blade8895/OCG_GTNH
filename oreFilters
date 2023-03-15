@@ -227,7 +227,7 @@
     },
     {
         name = "Crushed Pyrolusite Ore",
-        filter = 3,
+        filter = 2,
         damage = 5943
     },
     {
@@ -427,6 +427,16 @@
         damage = 5918
     },
     {
+        name = "Crushed Draconium Ore",
+        filter = 1,
+        damage = 5975
+    },
+    {
+        name = "Crushed Rock Salt Ore",
+        filter = 2,
+        damage = 5944
+    },
+    {
         name = "Purified Magnetite Ore",
         filter = 1,
         damage = 6870
@@ -570,6 +580,16 @@
         name = "Purified Ilmenite Ore",
         filter = 6,
         damage = 6918
+    },
+    {
+        name = "Purified Pyrolusite Ore",
+        filter = 1,
+        damage = 6943
+    },
+    {
+        name = "Purified Rock Salt Ore",
+        filter = 1,
+        damage = 6944
     },
     {
         name = "Impure Pile of Magnetite Dust",
@@ -966,6 +986,11 @@
         name = "Impure Pile of Chromite Dust",
         filter = 2,
         damage = 3825
+    },
+    {
+        name = "Impure Pile of Cobaltite Dust",
+        filter = 2,
+        damage = 3827
     },
     {
         name = "Impure Pile of Redstone Dust",
