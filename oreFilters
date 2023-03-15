@@ -1111,107 +1111,107 @@
         name = "Impure Pile of Redstone Dust",
         filter = 2,
         damage = 3810
-    }
+    },
     {
         name = "Impure Pile of Opal Dust",
         filter = 2,
         damage = 3510
-    }
+    },
     {
         name = "Impure Pile of Red Garnet Dust",
         filter = 2,
         damage = 3527
-    }
+    },
     {
         name = "Impure Pile of Tanzanite Dust",
         filter = 2,
         damage = 3508
-    }
+    },
     {
         name = "Impure Pile of Yellow Garnet Dust",
         filter = 2,
         damage = 3528
-    }
+    },
     {
         name = "Impure Pile of Basalt Dust",
         filter = 2,
         damage = 3844
-    }
+    },
     {
         name = "Impure Pile of Beryllium Dust",
         filter = 2,
         damage = 3008
-    }
+    },
     {
         name = "Impure Pile of Black Granite Dust",
         filter = 2,
         damage = 3849
-    }
+    },
     {
         name = "Impure Pile of Marble Dust",
         filter = 2,
         damage = 3845
-    }
+    },
     {
         name = "Impure Pile of Cryolite Dust",
         filter = 2,
         damage = 3699
-    }
+    },
     {
         name = "Impure Pile of Sapphire Dust",
         filter = 2,
         damage = 3503
-    }
+    },
     {
         name = "Impure Pile of Ruby Dust",
         filter = 2,
         damage = 3502
-    }
+    },
     {
         name = "Impure Pile of Pentlandite Dust",
         filter = 2,
         damage = 3909
-    }
+    },
     {
         name = "Impure Pile of Olivine Dust",
         filter = 2,
         damage = 3505
-    }
+    },
     {
         name = "Impure Pile of Amethyst Dust",
         filter = 2,
         damage = 3509
-    }
+    },
     {
         name = "Impure Pile of Emerald Dust",
         filter = 2,
         damage = 3501
-    }
+    },
     {
         name = "Impure Pile of Jasper Dust",
         filter = 2,
         damage = 3511
-    }
+    },
     {
         name = "Impure Pile of Lignite Coal Dust",
         filter = 2,
         damage = 3538
-    }
+    },
     {
         name = "Impure Pile of Oilsands Dust",
         filter = 2,
         damage = 3878
-    }
+    },
     {
         name = "Impure Pile of Spodumene Dust",
         filter = 2,
         damage = 3920
-    }
+    },
     {
         name = "Impure Pile of Topaz Dust",
         filter = 2,
         damage = 3507
-    }
+    },
     {
         name = "Impure Pile of Amber Dust",
         filter = 2,
