@@ -267,6 +267,11 @@
         damage = 5534
     },
     {
+        name = "Crushed Uranium 238 Ore",
+        filter = 2,
+        damage = 5098
+    },
+    {
         name = "Crushed Saltpeter Ore",
         filter = 4,
         damage = 5836
@@ -547,6 +552,11 @@
         damage = 6830
     },
     {
+        name = "Purified Uranium 238 Ore",
+        filter = 1,
+        damage = 6098
+    },
+    {
         name = "Purified Emerald Ore",
         filter = 6,
         damage = 6501
@@ -821,6 +831,11 @@
         name = "Impure Pile of Antimony Dust",
         filter = 2,
         damage = 3058
+    },
+    {
+        name = "Impure Pile of Uranium 238 Dust",
+        filter = 2,
+        damage = 3098
     },
     {
         name = "Impure Pile of Pyrolusite Dust",
