@@ -36,10 +36,10 @@ end
 function sleep_timer()
  term.setCursor(78,2)
  print("┼")
- os.sleep(1)
+ os.sleep(2)
  term.setCursor(78,2)
  print("╳")
- os.sleep(1)
+ os.sleep(2)
 end
 
 return hud

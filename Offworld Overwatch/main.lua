@@ -24,14 +24,7 @@ Header = "Offworld Overwatch "..Version.." "
 -- this is the clean table:
 -- signals[i] = { Signal_Maintenance = Wireless Frequency Number, Signal_Name = Display Name on the Screen as a String, good = Alternate text as a String when there is no Signal. otherwise just use nil, bad = Alternate text as a String when there is a Signal. otherwise just use nil, align = Left or Right (use Variables), row = Wich Row the Line will be in. (7, 9, 11, 13, 15, 17}
 signals = {}
-	signals[1] = { Signal_Maintenance = 1869, Signal_Name = "Moon, Helium-3:", good = nil, bad = nil, align = align_pump, row = 7 }
-	signals[2] = { Signal_Maintenance = 2013, Signal_Name = "Ross ba, SaltWater:", good = nil, bad = nil, align= align_pump, row = 9 }
-	signals[3] = { Signal_Maintenance = 2012, Signal_Name = "Mars, Chlorobenzene:", good = nil, bad = nil, align= align_pump, row = 11 }
-	signals[4] = { Signal_Maintenance = 2025, Signal_Name = "Pluto, Fluorine:", good = nil, bad = nil, align= align_pump, row = 13 }
-	signals[5] = { Signal_Maintenance = 2014, Signal_Name = "BarnadaF:", good = nil, bad = nil, align= align_miner, row = 7 }
-	signals[6] = { Signal_Maintenance = 2588, Signal_Name = "VegaB-1", good = nil, bad = nil, align= align_miner, row = 9 }
-	signals[7] = { Signal_Maintenance = 2588, Signal_Name = "VegaB-2", good = nil, bad = nil, align= align_miner, row = 11 }
-	signals[8] = { Signal_Maintenance = 2887, Signal_Name = "Radon, Production:", good = "  High ", bad = "     Low    ", align= align_pump, row = 15 }
+	signals[1] = { Signal_Maintenance = nil, Signal_Name = "Good Name", good = nil, bad = nil, align = align_X, row = 7 }
 
 -- Configs Ende
 
