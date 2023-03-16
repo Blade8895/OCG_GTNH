@@ -783,6 +783,16 @@
         damage = 3035
     },
     {
+        name = "Impure Pile of Rock Salt",
+        filter = 2,
+        damage = 3944
+    },
+    {
+        name = "Impure Pile of Salt",
+        filter = 2,
+        damage = 3817
+    },
+    {
         name = "Impure Pile of Zinc Dust",
         filter = 2,
         damage = 3036
