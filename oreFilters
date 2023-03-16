@@ -713,7 +713,7 @@
     },
     {
         name = "Purified Jade Ore",
-        filter = 2,
+        filter = 6,
         damage = 6537
     },
     {
