@@ -175,6 +175,11 @@
         damage = 5096
     },
     {
+        name = "Crushed Uvarovite Ore",
+        filter = 3,
+        damage = 5842
+    },
+    {
         name = "Crushed Lead Ore",
         filter = 1,
         damage = 5089
@@ -1136,6 +1141,11 @@
         name = "Impure Pile of Chromite Dust",
         filter = 2,
         damage = 3825
+    },
+    {
+        name = "Impure Pile of Uvarovite Dust",
+        filter = 2,
+        damage = 3842
     },
     {
         name = "Impure Pile of Cobaltite Dust",
