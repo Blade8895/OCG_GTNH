@@ -35,6 +35,11 @@
         damage = 5827
     },
     {
+        name = "Crushed Tantalite Ore",
+        filter = 3,
+        damage = 5921
+    },
+    {
         name = "Crushed Emerald Ore",
         filter = 2,
         damage = 5501
@@ -816,6 +821,11 @@
         name = "Impure Pile of Pitchblende Dust",
         filter = 2,
         damage = 3873
+    },
+    {
+        name = "Impure Pile of Tantalite Dust",
+        filter = 2,
+        damage = 3921
     },
     {
         name = "Impure Pile of Lead Dust",
