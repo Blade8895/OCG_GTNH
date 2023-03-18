@@ -1343,6 +1343,11 @@
         damage = 3534
     },
     {
+        name = "Impure Pile of Grossular Dust",
+        filter = 2,
+        damage = 3831
+    },
+    {
         name = "Impure Pile of Amber Dust",
         filter = 2,
         damage = 3514
