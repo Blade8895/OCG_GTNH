@@ -1183,6 +1183,16 @@
         damage = 3827
     },
     {
+        name = "Impure Pile of Cobalt Dust",
+        filter = 2,
+        damage = 3033
+    },
+    {
+        name = "Impure Pile of Monazite Dust",
+        filter = 2,
+        damage = 3520
+    },
+    {
         name = "Impure Pile of Redstone Dust",
         filter = 2,
         damage = 3810
