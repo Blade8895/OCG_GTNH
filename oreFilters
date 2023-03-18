@@ -552,11 +552,6 @@
         damage = 6530
     },
     {
-        name = "Purified Coal Ore",
-        filter = 1,
-        damage = 6535
-    },
-    {
         name = "Purified Nickel Ore",
         filter = 1,
         damage = 6034
