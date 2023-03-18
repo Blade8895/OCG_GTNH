@@ -1238,6 +1238,11 @@
         damage = 3503
     },
     {
+        name = "Impure Pile of Green Sapphire Dust",
+        filter = 2,
+        damage = 3504
+    },
+    {
         name = "Impure Pile of Ruby Dust",
         filter = 2,
         damage = 3502
@@ -1288,6 +1293,11 @@
         damage = 3507
     },
     {
+        name = "Impure Pile of Blue Topaz Dust",
+        filter = 2,
+        damage = 3513
+    },
+    {
         name = "Impure Pile of Neodymium Dust",
         filter = 2,
         damage = 3067
@@ -1311,6 +1321,21 @@
         name = "Impure Pile of Stibnite Dust",
         filter = 2,
         damage = 3945
+    },
+    {
+        name = "Impure Pile of Almandine Dust",
+        filter = 2,
+        damage = 3820
+    },
+    {
+        name = "Impure Pile of Arsenic Dust",
+        filter = 2,
+        damage = 3039
+    },
+    {
+        name = "Impure Pile of Tricalcium Phosphate Dust",
+        filter = 2,
+        damage = 3534
     },
     {
         name = "Impure Pile of Amber Dust",
