@@ -507,6 +507,36 @@
         damage = 5514
     },
     {
+        name = "Crushed Neodymium Ore",
+        filter = 3,
+        damage = 5067
+    },
+    {
+        name = "Crushed Perlite Ore",
+        filter = 1,
+        damage = 5925
+    },
+    {
+        name = "Crushed Spessartine Ore",
+        filter = 3,
+        damage = 5838
+    },
+    {
+        name = "Crushed Zeolite Ore",
+        filter = 1,
+        damage = 5916
+    },
+    {
+        name = "Crushed Stibnite Ore",
+        filter = 1,
+        damage = 5945
+    },
+    {
+        name = "Crushed Spodumene Ore",
+        filter = 3,
+        damage = 5920
+    },
+    {
         name = "Purified Magnetite Ore",
         filter = 1,
         damage = 6870
@@ -1261,6 +1291,26 @@
         name = "Impure Pile of Neodymium Dust",
         filter = 2,
         damage = 3067
+    },
+    {
+        name = "Impure Pile of Perlite Dust",
+        filter = 2,
+        damage = 3925
+    },
+    {
+        name = "Impure Pile of Spessartine Dust",
+        filter = 2,
+        damage = 3838
+    },
+    {
+        name = "Impure Pile of Zeolite Dust",
+        filter = 2,
+        damage = 3916
+    },
+    {
+        name = "Impure Pile of Stibnite Dust",
+        filter = 2,
+        damage = 3945
     },
     {
         name = "Impure Pile of Amber Dust",
