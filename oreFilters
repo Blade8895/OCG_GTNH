@@ -538,7 +538,7 @@
     },
     {
         name = "Purified Coal Ore",
-        filter = 1,
+        filter = 6,
         damage = 6535
     },
     {
