@@ -81,22 +81,12 @@ function refresh()
   auto_rs()
  end
  bar(storage_percent_bar)
- os.sleep(0.1)
 
- term.setCursor(35,17)
-  if storage_percent <= 0.8 then
+ term.setCursor(36,14)
  aw.write("<color fg=0x00ff00> "..storage_print.."% </color>")
- else if storage_percent <= 0.5 then
- aw.write("<color fg=0xffff00> "..storage_print.."% </color>")
- else if storage_percent <= 0.2 then
- aw.write("<color fg=0xff8000> "..storage_print.."% </color>")
- else if storage_percent > 0.2 then
- aw.write("<color fg=0xff0000> "..storage_print.."% </color>")
- end
- end
- end
- end
+
  
+ os.sleep(0.1)
  UI_Values()
  
  -- here more refresh code

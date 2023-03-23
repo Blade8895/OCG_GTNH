@@ -48,8 +48,10 @@ end
 
 function bar(storage_percent_bar) --????????????????
  --gpu.fill(Spalte, Zeile, Dicke nach rechts, Höhe, "█")
- component.gpu.setForeground(0xFFFF00)
+ component.gpu.setForeground(0x00CD00)
  gpu.fill(7, 16, storage_percent_bar, 2, "█")
+ component.gpu.setForeground(0xCD0000)
+ gpu.fill(storage_percent_bar+7, 16, 69-storage_percent_bar, 2, "█")
  component.gpu.setForeground(fg_standart)
 end
 
