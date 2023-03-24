@@ -23,6 +23,9 @@ debugUI = false
  UI_Build()
  term.setCursor(30,2)
  aw.write("<color fg=0xff0000>BOOTING...</color>")
+ array = {0,0,0,0,0,0,0,0,0,0}
+ avg = 0
+ i = 1
  os.sleep(1)
 -- end
 
@@ -74,6 +77,21 @@ function auto_rs()
  end
 end
 
+function average()
+ array[i] = EUflow
+ i = i + 1
+ if i == #array then
+  i = 1
+ end
+  avg = 0
+  for j = 1, #array do
+  avg = avg + array[j]
+  end
+  avg = avg/#array
+  return avg
+end 
+
+
 -- Beschriftung
 function refresh()
  storage_calc()
@@ -88,7 +106,7 @@ function refresh()
  
  os.sleep(0.1)
  UI_Values()
- 
+ average()
  -- here more refresh code
  
  
@@ -100,40 +118,18 @@ function refresh()
   term.write("Wireless? "..tostring(rs_wireless))
   term.setCursor(50,14)
   term.write("Wireless Active? "..tostring(rs_wireless_state))
+  
+  term.setCursor(50,2)
+  term.write(EUflow)
+  
+  term.setCursor(50,3)
+  term.write(avg)
  end
  
- 
 end
--- Old Charge / Discharge Visual
- -- if component.redstone.getOutput(rs_output) == 15 then
-  -- term.setCursor(16,10)
-  -- aw.write("<color bg=0x00ff00>Charging</color>   ")
- -- else
-  -- term.setCursor(16,10)
-  -- aw.write("<color bg=0xff0000>Discharging</color>   ")
- -- end
--- end
 
 term.setCursor(30,2)
 term.write("                      ")
-
--- while true do
-   -- _, _, key, _ = event.pull("key_down")
- -- if key == 8 then
-	-- component.redstone.setWirelessOutput(false)
-	-- refresh()
- -- else
-  -- if key == 9 then
-	-- component.redstone.setWirelessOutput(true)
-	-- refresh()
- -- else
-  -- if key == nil then
-  -- refresh()
--- end
--- end
--- end
--- os.sleep(0.1)
--- end
 
 while true do
  refresh()
