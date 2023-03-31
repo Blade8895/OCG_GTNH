@@ -10,6 +10,11 @@
         damage = 5502
     },
     {
+        name = "Crushed Platinum Ore",
+        filter = 3,
+        damage = 5085
+    },
+    {
         name = "Crushed Pyrochlore Ore",
         filter = 1,
         damage = 5607
@@ -63,6 +68,11 @@
         name = "Crushed Diatomite Ore",
         filter = 1,
         damage = 5948
+    },
+    {
+        name = "Crushed Sheldonite Ore",
+        filter = 3,
+        damage = 5828
     },
     {
         name = "Crushed Apatite Ore",
@@ -347,9 +357,19 @@
         damage = 5841
     },
     {
+        name = "Crushed Palladium Ore",
+        filter = 1,
+        damage = 5052
+    },
+    {
         name = "Crushed Scheelite Ore",
         filter = 2,
         damage = 5910
+    },
+    {
+        name = "Crushed Chrome Ore",
+        filter = 3,
+        damage = 5030
     },
     {
         name = "Crushed Malachite Ore",
@@ -893,6 +913,11 @@
         damage = 3921
     },
     {
+        name = "Impure Pile of Platinum Dust",
+        filter = 2,
+        damage = 3085
+    },
+    {
         name = "Impure Pile of Lead Dust",
         filter = 2,
         damage = 3089
@@ -1193,6 +1218,11 @@
         damage = 3393
     },
     {
+        name = "Impure Pile of Chrome Dust",
+        filter = 2,
+        damage = 3030
+    },
+    {
         name = "Impure Pile of Malachite Dust",
         filter = 5,
         damage = 3871
@@ -1236,6 +1266,16 @@
         name = "Impure Pile of Red Garnet Dust",
         filter = 2,
         damage = 3527
+    },
+    {
+        name = "Impure Pile of Sheldonite Dust",
+        filter = 2,
+        damage = 3828
+    },
+    {
+        name = "Impure Pile of Palladium Dust",
+        filter = 2,
+        damage = 3052
     },
     {
         name = "Impure Pile of Tanzanite Dust",
