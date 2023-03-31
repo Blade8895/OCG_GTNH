@@ -12,14 +12,16 @@ local auto = 1
 local rs_output = sides.top
 local on = 30
 local off = 90
-local rs_wireless = true
+local rs_wireless = false
 rs_wireless_freq = 1145
 debugUI = false
 
 -- initial setup
  term.clear()
  term.setCursor(1,1)
+ if rs_wireless == true then
  component.redstone.setWirelessFrequency(rs_wireless_freq)
+ end
  UI_Build()
  term.setCursor(30,2)
  aw.write("<color fg=0xff0000>BOOTING...</color>")
@@ -95,9 +97,6 @@ end
 -- Beschriftung
 function refresh()
  storage_calc()
- if auto == 1 then 
-  auto_rs()
- end
  bar(storage_percent_bar)
 
  term.setCursor(36,14)
@@ -133,5 +132,8 @@ term.write("                      ")
 
 while true do
  refresh()
+ if auto == 1 then 
+  auto_rs()
+ end
  os.sleep(1)
 end
