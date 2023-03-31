@@ -537,6 +537,41 @@
         damage = 5920
     },
     {
+        name = "Crushed Naquadah Ore",
+        filter = 1,
+        damage = 5324
+    },
+    {
+        name = "Crushed Almandine Ore",
+        filter = 1,
+        damage = 5820
+    },
+    {
+        name = "Crushed Alunite Ore",
+        filter = 1,
+        damage = 5911
+    },
+    {
+        name = "Crushed Cryolite Ore",
+        filter = 3,
+        damage = 5699
+    },
+    {
+        name = "Crushed Lignite Coal Ore",
+        filter = 1,
+        damage = 5538
+    },
+    {
+        name = "Crushed Pollucite Ore",
+        filter = 1,
+        damage = 5919
+    },
+    {
+        name = "Crushed Soapstone Ore",
+        filter = 1,
+        damage = 5877
+    },
+    {
         name = "Purified Magnetite Ore",
         filter = 1,
         damage = 6870
@@ -1346,6 +1381,16 @@
         name = "Impure Pile of Grossular Dust",
         filter = 2,
         damage = 3831
+    },
+    {
+        name = "Impure Pile of Naquadah Dust",
+        filter = 2,
+        damage = 3324
+    },
+    {
+        name = "Impure Pile of Thorium Dust",
+        filter = 2,
+        damage = 3096
     },
     {
         name = "Impure Pile of Amber Dust",
