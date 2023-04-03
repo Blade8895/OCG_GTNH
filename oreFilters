@@ -1274,7 +1274,7 @@
     },
     {
         name = "Impure Pile of Palladium Dust",
-        filter = 2,
+        filter = 7,
         damage = 3052
     },
     {
