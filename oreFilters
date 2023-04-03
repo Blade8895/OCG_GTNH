@@ -437,6 +437,16 @@
         damage = 5928
     },
     {
+        name = "Crushed Mytryl Ore",
+        filter = 1,
+        damage = 5387
+    },
+    {
+        name = "Crushed Ledox Ore",
+        filter = 1,
+        damage = 5390
+    },
+    {
         name = "Ground Cassiterite Sand",
         filter = 1,
         damage = 5937
@@ -1081,6 +1091,16 @@
         name = "Impure Pile of Gold Dust",
         filter = 5,
         damage = 3086
+    },
+    {
+        name = "Impure Pile of Mytryl Dust",
+        filter = 2,
+        damage = 3387
+    },
+    {
+        name = "Impure Pile of Ledox Dust",
+        filter = 2,
+        damage = 3390
     },
     {
         name = "Impure Pile of Endstone Dust",
