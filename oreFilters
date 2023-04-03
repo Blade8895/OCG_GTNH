@@ -447,6 +447,11 @@
         damage = 5522
     },
     {
+        name = "Crushed Callisto Ice Ore",
+        filter = 1,
+        damage = 5389
+    },
+    {
         name = "Crushed Quartzite Ore",
         filter = 2,
         damage = 5523
