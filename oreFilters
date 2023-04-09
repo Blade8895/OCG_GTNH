@@ -607,6 +607,36 @@
         damage = 5877
     },
     {
+        name = "Crushed Wulfenite Ore",
+        filter = 1,
+        damage = 5882
+    },
+    {
+        name = "Crushed Molybdenite Ore",
+        filter = 1,
+        damage = 5942
+    },
+    {
+        name = "Crushed Molybdenum Ore",
+        filter = 1,
+        damage = 5048
+    },
+    {
+        name = "Crushed Powellite Ore",
+        filter = 1,
+        damage = 5883
+    },
+    {
+        name = "Crushed Plutonium 239 Ore",
+        filter = 1,
+        damage = 5100
+    },
+    {
+        name = "Crushed Magnesium Ore",
+        filter = 1,
+        damage = 5018
+    },
+    {
         name = "Purified Magnetite Ore",
         filter = 1,
         damage = 6870
@@ -1456,6 +1486,31 @@
         name = "Impure Pile of Thorium Dust",
         filter = 2,
         damage = 3096
+    },
+    {
+        name = "Impure Pile of Wulfenite Dust",
+        filter = 2,
+        damage = 3882
+    },
+    {
+        name = "Impure Pile of Molybdenite Dust",
+        filter = 2,
+        damage = 3942
+    },
+    {
+        name = "Impure Pile of Molybdenum Dust",
+        filter = 2,
+        damage = 3048
+    },
+    {
+        name = "Impure Pile of Powellite Dust",
+        filter = 2,
+        damage = 3883
+    },
+    {
+        name = "Impure Pile of Plutonium 239 Dust",
+        filter = 2,
+        damage = 3100
     },
     {
         name = "Impure Pile of Amber Dust",
