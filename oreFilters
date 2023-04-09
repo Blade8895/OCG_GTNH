@@ -229,7 +229,6 @@
         filter = 2,
         damage = 5825
     },
-
     {
         name = "Crushed Sphalerite Ore",
         filter = 2,
@@ -500,6 +499,11 @@
         name = "Crushed Blue Topaz Ore",
         filter = 2,
         damage = 5513
+    },
+    {
+        name = "Crushed Topaz Ore",
+        filter = 2,
+        damage = 5507
     },
     {
         name = "Crushed Jasper Ore",
@@ -805,6 +809,11 @@
         name = "Purified Blue Topaz Ore",
         filter = 6,
         damage = 6513
+    },
+    {
+        name = "Purified Topaz Ore",
+        filter = 6,
+        damage = 6507
     },
     {
         name = "Purified Jasper Ore",
@@ -1511,6 +1520,11 @@
         name = "Impure Pile of Plutonium 239 Dust",
         filter = 2,
         damage = 3100
+    },
+    {
+        name = "Impure Pile of Magnesium Dust",
+        filter = 2,
+        damage = 3018
     },
     {
         name = "Impure Pile of Amber Dust",
