@@ -641,6 +641,11 @@
         damage = 5018
     },
     {
+        name = "Crushed Quantium Ore",
+        filter = 1,
+        damage = 5391
+    },
+    {
         name = "Purified Magnetite Ore",
         filter = 1,
         damage = 6870
@@ -1525,6 +1530,11 @@
         name = "Impure Pile of Magnesium Dust",
         filter = 2,
         damage = 3018
+    },
+    {
+        name = "Impure Pile of Quantium Dust",
+        filter = 2,
+        damage = 3392
     },
     {
         name = "Impure Pile of Amber Dust",
