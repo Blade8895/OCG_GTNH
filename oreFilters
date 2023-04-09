@@ -1534,7 +1534,7 @@
     {
         name = "Impure Pile of Quantium Dust",
         filter = 2,
-        damage = 3392
+        damage = 3391
     },
     {
         name = "Impure Pile of Amber Dust",
