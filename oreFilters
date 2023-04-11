@@ -402,7 +402,7 @@
     },
     {
         name = "Crushed Sodalite Ore",
-        filter = 1,
+        filter = 2,
         damage = 5525
     },
     {
@@ -787,13 +787,18 @@
     },
     {
         name = "Purified Ilmenite Ore",
-        filter = 6,
+        filter = 1,
         damage = 6918
     },
     {
         name = "Purified Pyrolusite Ore",
         filter = 1,
         damage = 6943
+    },
+    {
+        name = "Purified Sodalite Ore",
+        filter = 6,
+        damage = 6525
     },
     {
         name = "Purified Rock Salt Ore",
