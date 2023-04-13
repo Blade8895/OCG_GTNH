@@ -496,6 +496,11 @@
         damage = 5509
     },
     {
+        name = "Crushed Cassiterite Ore",
+        filter = 1,
+        damage = 5824
+    },
+    {
         name = "Crushed Blue Topaz Ore",
         filter = 2,
         damage = 5513
@@ -619,6 +624,11 @@
         name = "Crushed Molybdenite Ore",
         filter = 1,
         damage = 5942
+    },
+    {
+        name = "Crushed Kyanite Ore",
+        filter = 1,
+        damage = 5924
     },
     {
         name = "Crushed Molybdenum Ore",
@@ -874,6 +884,11 @@
         name = "Impure Pile of Magnetite Dust",
         filter = 5,
         damage = 3870
+    },
+    {
+        name = "Impure Pile of Cassiterite Dust",
+        filter = 5,
+        damage = 3824
     },
     {
         name = "Impure Pile of Apatite Dust",
@@ -1542,8 +1557,18 @@
         damage = 3391
     },
     {
+        name = "Impure Pile of Kyanite Dust",
+        filter = 2,
+        damage = 3924
+    },
+    {
         name = "Impure Pile of Amber Dust",
         filter = 2,
         damage = 3514
+    },
+    {
+        name = "Cassiterite Dust",
+        filter = 5,
+        damage = 2824
     }
 }
