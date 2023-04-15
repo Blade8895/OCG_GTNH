@@ -641,6 +641,16 @@
         damage = 5883
     },
     {
+        name = "Crushed Orichalcum Ore",
+        filter = 1,
+        damage = 5966
+    },
+    {
+        name = "Crushed Magnesite Ore",
+        filter = 1,
+        damage = 5908
+    },
+    {
         name = "Crushed Plutonium 239 Ore",
         filter = 1,
         damage = 5100
@@ -1575,6 +1585,16 @@
         name = "Impure Pile of Rubracium Dust",
         filter = 2,
         damage = 3488
+    },
+    {
+        name = "Impure Pile of Orichalcum Dust",
+        filter = 2,
+        damage = 3966
+    },
+    {
+        name = "Impure Pile of Magnesite Dust",
+        filter = 2,
+        damage = 3908
     },
     {
         name = "Cassiterite Dust",
