@@ -641,6 +641,26 @@
         damage = 5883
     },
     {
+        name = "Crushed Vulcanite Ore",
+        filter = 1,
+        damage = 5489
+    },
+    {
+        name = "Crushed Ceruclase Ore",
+        filter = 1,
+        damage = 5952
+    },
+    {
+        name = "Crushed Tungsten Ore",
+        filter = 3,
+        damage = 5081
+    },
+    {
+        name = "Crushed Infused Gold Ore",
+        filter = 1,
+        damage = 5323
+    },
+    {
         name = "Crushed Orichalcum Ore",
         filter = 1,
         damage = 5966
@@ -1595,6 +1615,26 @@
         name = "Impure Pile of Magnesite Dust",
         filter = 2,
         damage = 3908
+    },
+    {
+        name = "Impure Pile of Vulcanite Dust",
+        filter = 2,
+        damage = 3489
+    },
+    {
+        name = "Impure Pile of Ceruclase Dust",
+        filter = 2,
+        damage = 3952
+    },
+    {
+        name = "Impure Pile of Tungsten Dust",
+        filter = 2,
+        damage = 3081
+    },
+    {
+        name = "Impure Pile of Infused Gold Dust",
+        filter = 2,
+        damage = 3323
     },
     {
         name = "Cassiterite Dust",
