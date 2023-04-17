@@ -407,7 +407,7 @@
     },
     {
         name = "Crushed Lepidolite Ore",
-        filter = 1,
+        filter = 2,
         damage = 5907
     },
     {
@@ -739,6 +739,11 @@
         name = "Purified Galena Ore",
         filter = 7,
         damage = 6830
+    },
+    {
+        name = "Purified Lepidolite Ore",
+        filter = 7,
+        damage = 6907
     },
     {
         name = "Purified Uranium 238 Ore",
