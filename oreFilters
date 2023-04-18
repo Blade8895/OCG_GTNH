@@ -686,6 +686,11 @@
         damage = 5391
     },
     {
+        name = "Crushed Mithril Ore",
+        filter = 1,
+        damage = 5331
+    },
+    {
         name = "Crushed Rubracium Ore",
         filter = 1,
         damage = 5488
