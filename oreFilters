@@ -506,6 +506,26 @@
         damage = 5513
     },
     {
+        name = "Crushed Alduorite Ore",
+        filter = 1,
+        damage = 5485
+    },
+    {
+        name = "Crushed Enriched Naquadah Ore",
+        filter = 3,
+        damage = 5326
+    },
+    {
+        name = "Crushed Iridium Ore",
+        filter = 3,
+        damage = 5084
+    },
+    {
+        name = "Crushed Rutile Ore",
+        filter = 1,
+        damage = 5375
+    },
+    {
         name = "Crushed Topaz Ore",
         filter = 2,
         damage = 5507
@@ -1645,6 +1665,21 @@
         name = "Impure Pile of Infused Gold Dust",
         filter = 2,
         damage = 3323
+    },
+    {
+        name = "Impure Pile of Alduorite Dust",
+        filter = 2,
+        damage = 3485
+    },
+    {
+        name = "Impure Pile of Enriched Naquadah Dust",
+        filter = 2,
+        damage = 3326
+    },
+    {
+        name = "Impure Pile of Rutile Dust",
+        filter = 2,
+        damage = 3375
     },
     {
         name = "Cassiterite Dust",
