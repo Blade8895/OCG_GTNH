@@ -867,7 +867,7 @@
     },
     {
         name = "Purified Pyrolusite Ore",
-        filter = 1,
+        filter = 3,
         damage = 6943
     },
     {
