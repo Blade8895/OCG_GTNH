@@ -16,7 +16,7 @@
     },
     {
         name = "Crushed Pyrochlore Ore",
-        filter = 1,
+        filter = 3,
         damage = 5607
     },
     {
