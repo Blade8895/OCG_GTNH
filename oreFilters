@@ -1672,6 +1672,11 @@
         damage = 3323
     },
     {
+        name = "Impure Pile of Deep Iron Dust",
+        filter = 2,
+        damage = 3829
+    },
+    {
         name = "Impure Pile of Alduorite Dust",
         filter = 2,
         damage = 3485
