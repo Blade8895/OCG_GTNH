@@ -7,6 +7,7 @@ version = "BETA"
 ID_coolant = "1962c3f5-f40b-4213-8409-82e7121229a1"
 ID_water = "e1982c1e-cd6a-43a6-b8cd-ee1e00c62604"
 
+radiation_logo()
 UI_Build()
 
 function tank_calc_coolant()
@@ -35,11 +36,16 @@ function tank_calc_coolant()
     return tank_water_bar, tank_water_print
    end
 
-   tank_calc_coolant()
-   tank_calc_water()
-   term.setCursor(10,10)
-   print(tank_coolant_print)
-   term.setCursor(10,11)
-   print(tank_water_print)
+function refresh()
+    tank_calc_coolant()
+    tank_calc_water()
+    bar_water(tank_water_bar)
+    bar_coolant(tank_coolant_bar)
 
-   reactor_status(1,1)
+    reactor_status(1,1)
+end
+
+while true do
+    refresh()
+    os.sleep(1)
+end

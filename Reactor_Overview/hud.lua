@@ -54,8 +54,35 @@ function UI_Build()
     print(header.." v"..version)
     end
 
+function radiation_logo(x, y)
+    local pattern = [[
+       █████                █████
+     ████████              ████████
+    ███████████          ███████████
+   █████████████        █████████████
+  ███████████████      ███████████████
+  ████████████████    ████████████████
+ █████████████████    █████████████████
+ ████████████████      ████████████████
+████████████████   ██   ████████████████
+                  ████
+                   ██
+
+                  ████
+                 ██████
+                ████████
+               ██████████
+              ████████████
+             ██████████████
+            ████████████████
+              ████████████
+]]
+gpu.set(x, y, pattern)
+gpu.flush()
+end
+
 function reactor_status(status_1, status_2)
- --gpu.fill(Spalte, Zeile, Dicke nach rechts, Höhe, "█")
+ --gpu.fill(Spalte, Zeile, Dicke nach rechts, tiefe, "█")
     --reactor 1
     gpu.fill(115, 3, 12, 6, "█")
     term.setCursor(116,4)
@@ -67,10 +94,19 @@ function reactor_status(status_1, status_2)
 end
 
 function bar_water(tank_water_bar)
-    --gpu.fill(Spalte, Zeile, Dicke nach rechts, Höhe, "█")
-    component.gpu.setForeground(0x00CD00)
-    gpu.fill(8, 36, 12, tank_water_bar, "█")
-    component.gpu.setForeground(0xCD0000)
-    gpu.fill(8, tank_water_bar+36, 12, 31-tank_water_bar, "█")
+    --gpu.fill(Spalte, Zeile, Dicke nach rechts, tiefe, "█")
+    component.gpu.setForeground(0xCD0000) -- redbar
+    gpu.fill(9, 7, 12, 30-tank_water_bar, "█")
+    component.gpu.setForeground(0x00CD00) -- bluebar
+    gpu.fill(22, 30-tank_water_bar+7, 12, tank_water_bar, "█")
+    component.gpu.setForeground(fg_standart)
+   end
+
+   function bar_coolant(tank_coolant_bar)
+    --gpu.fill(Spalte, Zeile, Dicke nach rechts, tiefe, "█")
+    component.gpu.setForeground(0xCD0000) -- redbar
+    gpu.fill(9, 7, 12, 30-tank_coolant_bar, "█")
+    component.gpu.setForeground(0x008888) -- cyanbar
+    gpu.fill(22, 31-tank_coolant_bar+7, 12, tank_coolant_bar, "█")
     component.gpu.setForeground(fg_standart)
    end
