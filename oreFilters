@@ -5,6 +5,11 @@
         damage = 5086
     },
     {
+        name = "Crushed Neutronium Ore",
+        filter = 1,
+        damage = 5129
+    },
+    {
         name = "Crushed Ruby Ore",
         filter = 1,
         damage = 5502
@@ -716,6 +721,11 @@
         damage = 5018
     },
     {
+        name = "Crushed Raw Silicon Ore",
+        filter = 1,
+        damage = 5020
+    },
+    {
         name = "Crushed Quantium Ore",
         filter = 1,
         damage = 5391
@@ -1097,6 +1107,11 @@
         damage = 3607
     },
     {
+        name = "Impure Pile of Raw Silicon Dust",
+        filter = 2,
+        damage = 3020
+    },
+    {
         name = "Impure Pile of Antimony Dust",
         filter = 2,
         damage = 3058
@@ -1285,6 +1300,11 @@
         name = "Impure Pile of Ordo Crystal Powder",
         filter = 2,
         damage = 3545
+    },
+    {
+        name = "Impure Pile of Neutronium Dust",
+        filter = 2,
+        damage = 3129
     },
     {
         name = "Impure Pile of Aer Crystal Powder",
