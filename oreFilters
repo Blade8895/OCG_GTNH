@@ -442,7 +442,7 @@
     },
     {
         name = "Ground Basaltic Mineral Sand",
-        filter = 5,
+        filter = 4,
         damage = 5935
     },
     {
