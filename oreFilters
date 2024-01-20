@@ -1218,7 +1218,7 @@
     },
     {
         name = "Impure Pile of Basaltic Mineral Sand",
-        filter = 5,
+        filter = 2,
         damage = 3935
     },
     {
