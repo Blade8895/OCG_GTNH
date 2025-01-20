@@ -176,7 +176,7 @@
     },
     {
         name = "Crushed Bauxite Ore",
-        filter = 3,
+        filter = 8,
         damage = 5822
     },
     {
@@ -887,7 +887,7 @@
     },
     {
         name = "Purified Ilmenite Ore",
-        filter = 1,
+        filter = 8,
         damage = 6918
     },
     {
