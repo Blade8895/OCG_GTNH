@@ -1,12 +1,9 @@
 local term = require("term")
 local component = require("component")
-local colors = require ("colors")
-time = require("time")
-
+local colors = require "colors"
+local time = require ("time")
 gpu = component.gpu
-EUout = component.gt_machine.getEUOutputAverage()
-EUin = component.gt_machine.getEUInputAverage()
-EUflow = EUin - EUout
+EUflow = 0
 
 fg_standart = component.gpu.getForeground()
 bg_standart = component.gpu.getBackground()
@@ -40,26 +37,43 @@ component.gpu.setForeground(fg_standart)
 print(header.." v"..version)
 end
 
+-- Format the Thousands
+function format_number(number)
+   number = tostring(number)
+   local formatted = number
+  while true do  
+    formatted, k = string.gsub(formatted, "^(-?%d+)(%d%d%d)", '%1.%2')
+    if (k==0) then
+      break
+    end
+  end
+  return formatted
+end
+-- end
+
 function UI_Values()
  term.setCursor(19,4)
- term.write(storage_max.." EU         ")
+ term.write(format_number(storage_max).." EU         ")
  term.setCursor(19,5)
- term.write(storage_actual.." EU      ")
+ term.write(format_number(storage_actual).." EU      ")
  term.setCursor(19,7)
- term.write(component.gt_machine.getEUOutputAverage().." EU/t          ")
+ term.write(format_number(component.gt_machine.getEUOutputAverage()).." EU/t          ")
  term.setCursor(19,8)
- term.write(component.gt_machine.getEUInputAverage().." EU/t          ")
- 
- if EUflow > 0 then
-  fillTime = math.floor((storage_max-storage_actual)/(EUflow*20))
+ term.write(format_number(component.gt_machine.getEUInputAverage()).." EU/t          ")
+
+ -- Update Estimation
+ EUflow = component.gt_machine.getEUInputAverage() - component.gt_machine.getEUOutputAverage()
+ if avg > 0 then
+  fillTime = math.floor((storage_max-storage_actual)/(avg*20))
   term.setCursor(5,10)
-  term.write("Full        : "..time.format(math.abs(fillTime)))
- elseif EUflow < 0 then
-  fillTime = math.floor(storage_max/(EUflow*20))
+  term.write("Full        : "..time.format(math.abs(fillTime)).."            ")
+ elseif avg <= 0 then
+  fillTime = math.floor(storage_actual/(avg*20))
   term.setCursor(5,10)
-  term.write("Empty       : "..time.format(math.abs(fillTime)))
-  end
+  term.write("Empty       : "..time.format(math.abs(fillTime)).."            ")
+ end
 end
+ -- End
 
 function bar(storage_percent_bar) --????????????????
  --gpu.fill(Spalte, Zeile, Dicke nach rechts, Höhe, "█")
