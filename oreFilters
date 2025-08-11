@@ -492,7 +492,7 @@
     },
     {
         name = "Crushed Ilmenite Ore",
-        filter = 2,
+        filter = 7,
         damage = 5918
     },
     {
@@ -1353,7 +1353,7 @@
     },
     {
         name = "Impure Pile of Bauxite Dust",
-        filter = 2,
+        filter = 7,
         damage = 3822
     },
     {
