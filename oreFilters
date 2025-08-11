@@ -1353,7 +1353,7 @@
     },
     {
         name = "Impure Pile of Bauxite Dust",
-        filter = 7,
+        filter = 2,
         damage = 3822
     },
     {
