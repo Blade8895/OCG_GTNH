@@ -9,12 +9,12 @@ hud = require("hud")
 version = "3.0"
 header = "Energy Display"
 local auto = 1
-local rs_output = sides.top
+local rs_output = sides.right
 local on = 60
 local off = 90
-local rs_wireless = false
-rs_wireless_freq = 1145
-debugUI = false
+local rs_wireless = true
+rs_wireless_freq = 1000
+debugUI = true
 
 -- initial setup
  term.clear()
@@ -44,7 +44,7 @@ end
 
 -- Format the Thousands
 function format_number(number)
-   local formatted = number
+   local formatted = tostring(number)
   while true do  
     formatted, k = string.gsub(formatted, "^(-?%d+)(%d%d%d)", '%1.%2')
     if (k==0) then
@@ -111,7 +111,7 @@ function refresh()
  storage_calc()
  bar(storage_percent_bar)
  
- format_number(storage_print)
+ local formatted = format_number(storage_print)
  term.setCursor(36,14)
  aw.write("<color fg=0x00ff00> "..tostring(formatted).."% </color>")
 
